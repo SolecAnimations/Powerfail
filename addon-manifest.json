@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+  "credits": [
+    "Planet crafter, prop placer, shiplogger, the very person writing this#Solec",
+    "Story and planet ideator, modeller#T3rtu",
+    "Musician#HeroPlays1122",
+    "Harrassed me to finish the mod on time (with permission)#Vodblink"
+  ]
+}

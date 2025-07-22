@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "StellarSiblings.dll",
+  "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)",
+  "name": "Powerfail",
+  "uniqueName": "TeamGeswaldo.Jam5",
+  "version": "0.1.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": [ "xen.NewHorizons", "xen-42.ModJam5" ]
+}

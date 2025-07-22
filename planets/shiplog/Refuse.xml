@@ -1,0 +1,64 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>POWERFAIL_REFUSE_DESC</ID>
+
+	<Entry>
+		<ID>REFUSE</ID>
+		<Name>Familliar Refuse</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>REFUSE_DISCOVERY</ID>
+			<Text>The trinary component of the Stellar Siblings. It's covered in craters that seem to be <![CDATA[<color=orange>miniature</color>]]> representations of the vegetation in the Outer Wilds.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Ping_And_Obsi</ID>
+		<Name>Basil's Recording</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Entering_System</ID>
+			<Text>Basil saw me and Ping enter the star cluster.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Safeguards</ID>
+		<Name>Safeguards</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Other_System_Mentions</ID>
+			<Text>The Nomai concidered adding safeguards to the SSPU in hopes of preventing alien life or other Nomai clans from accessing the SSPU.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Planetary_Nebula</ID>
+		<Name>Unstable Star</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Sun_Rise_Haha_Get_It_Right?-Basil</ID>
+			<Text>At the end of the loop, Sunset Sister's compact star goes planetary nebula. Basil wanted to use this to recover Dahlia's lost scroll.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Morse_Refuse</ID>
+		<Name>Morse Code Key</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Morse_Key</ID>
+			<Text>I found a key for what seems to be morse code in a crack in the Brittle Hollow crater on Familiar Refuse.</Text>
+		</ExploreFact>
+	</Entry>
+	
+</AstroObjectEntry>

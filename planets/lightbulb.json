@@ -1,0 +1,94 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Refuse's Lightbulb",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 20,
+		"surfaceGravity": 5,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+			"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 300,
+		"primaryBody": "Familliar Refuse",
+		"isTidallyLocked": true,
+		"inclination": 84,
+		"isMoon": true,
+		"dottedOrbitLine": true,
+		"siderealPeriod": 1.75
+	},
+			"HeightMap": {
+		"heightMap": "planets/assets/RL_h.png",
+		"textureMap": "planets/assets/RL_c.png",
+		"minHeight": 10,
+		"maxHeight": 17
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"treeVolume": true,
+				"position": {"x": -15.30036, "y": 4.480116, "z": -5.890933},
+				"radius": 17
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+							{
+				"xmlFile": "planets/xml/ReachingToTheCore.xml",
+				"type": "scroll",
+				"rename": "coreycoreyson",
+"position": {"x": -15.90215, "y": 1.619074, "z": -5.783997},
+"rotation": {"x": 314.276, "y": 344.2101, "z": 82.98422}
+			},
+										{
+				"xmlFile": "planets/xml/UmThatJustHappened.xml",
+				"type": "preCrashRecorder",
+				"rename": "umyumerson",
+"position": {"x": -16.98923, "y": -0.447319, "z": 0.2945917},
+"rotation": {"x": 273.9294, "y": 337.7468, "z": 113.8943}
+			}
+		],
+		"details": [
+					{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteCookingStand",
+"position": {"x": -16.4795, "y": 2.36186, "z": -3.425143},
+"rotation": {"x": 56.47147, "y": 335.7745, "z": 75.0772},
+"scale": 1,
+"item": {
+	"name": "Pot Of Chaos",
+	"itemType": "Decoration"
+				}
+			},
+							    {
+      "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+"position": {"x": -15.30036, "y": 4.480116, "z": -5.890933},
+"rotation": {"x": 36.19034, "y": 170.0006, "z": 288.7431}
+    },
+					    {
+      "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+"position": {"x": -15.30036, "y": 4.480116, "z": -5.890933},
+"rotation": {"x": 36.19034, "y": 170.0006, "z": 288.7431},
+"keepLoaded": true
+    },
+							    {
+      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+"position": {"x": -16.74297, "y": 1.357791, "z": -2.598683},
+"rotation": {"x": 311.2146, "y": 166.2063, "z": 277.4199},
+"keepLoaded": true
+    }
+		]
+	},
+	"Lava": {
+		"size": 15
+    },
+	  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Lightbulb.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/RL.png",
+			"scale": 0.6
+		}
+	}
+}

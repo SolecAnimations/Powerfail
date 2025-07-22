@@ -1,0 +1,130 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sunset Sister Power Unit",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 120,
+		"surfaceGravity": 8,
+		"hasMapMarker": false,
+		"ambientLight": 0.5,
+		"hasFluidDetector": false
+},
+"Volumes": {
+	"revealVolumes": [
+		{
+			"radius": 15,
+			"position": {"x": 0.1418195, "y": 33.98166, "z": -3.265439},
+			"reveals": [ "BASIL" ]
+		}
+	],
+	"oxygenVolumes": [
+		{
+			"radius": 120
+		}
+	],
+	"audioVolumes": [
+		{
+			"loop": true,
+			"track": "music",
+			"audio": "planets/music/Basil's Theme.mp3",
+			"radius": 19,
+			"volume": 1,
+			"position": {"x": 0.1418195, "y": 33.98166, "z": -3.265439}
+		}
+	],
+	"mapRestrictionVolumes": [
+		{
+			"radius": 120
+		}
+	]
+},
+"Orbit": {
+	"isStatic": true,
+	"staticPosition": {
+		"x": 0,
+		"y": 5500,
+		"z": 10000
+	}
+},
+"Props": {
+	"dialogue": [
+		{
+			"pathToAnimController": "Sector/Basil",
+			"xmlFile": "planets/xml/Basil.xml",
+			"radius": 3,
+"position": {"x": 0.1418195, "y": 33.98166, "z": -3.265439}
+		}
+	],
+			"translatorText": [
+			{
+				"type": "preCrashRecorder",
+"position": {"x": -3.327461, "y": -0.01469141, "z": 31.95456},
+"rotation": {"x": -2.467737, "y": -83.86835, "z": -85.89552},
+"xmlFile": "planets/xml/WarpCores.xml"
+			},
+						{
+				"type": "preCrashRecorder",
+"position": {"x": 3.224539, "y": -27.67524, "z": 16.00663},
+"rotation": {"x": 357.1386, "y": 284.3487, "z": 213.6716},
+"xmlFile": "planets/xml/aMomentLastingTrauma.xml"
+			},
+									{
+				"type": "preCrashRecorder",
+"position": {"x": -3.579988, "y": -27.60844, "z": -16.04499},
+"rotation": {"x": 26.71842, "y": 51.2561, "z": 201.4795},
+"xmlFile": "planets/xml/TimeIsMine.xml"
+			},
+												{
+				"type": "preCrashRecorder",
+"position": {"x": 2.358424, "y": -0.4927049, "z": -32.02409},
+"rotation": {"x": 51.63334, "y": 268.8767, "z": 96.19257},
+"xmlFile": "planets/xml/WeBuiltItForThis.xml"
+			}
+		],
+		"warpReceivers": [
+		{
+			"frequency": "SSPU-Maze",
+"position": {"x": 2.778948, "y": 8.871052, "z": 30.74113},
+"rotation": {"x": 2.327195, "y": 276.5846, "z": 289.7312}
+		}
+	],
+				"details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+"position": {"x": 0.01488757, "y": 32.09199, "z": -2.568298},
+"rotation": {"x": 3.983487, "y": 180.6772, "z": 3.421219},
+				"rename": "Basil"
+			},
+			{
+				"assetBundle": "planets/assetbundle/Epic_bundle/epicbundle",
+				"path": "Assets/Shitty moddles/SSPU.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 2,
+				"keepLoaded": true
+			}
+		]
+	},
+			"Atmosphere": {
+		"size": 89,
+		"fogSize": 89,
+		"clouds": {
+			"texturePath": "planets/assets/CF.png",
+			"outerCloudRadius": 89,
+			"innerCloudRadius": 84,
+			"unlit": true,
+			"tint": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			}
+		}
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	}
+}

@@ -1,0 +1,31 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>How can we gain the materials needed for the SSPU?</Text>		
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>2</ID>
+		<Text>Solution 1: Harvest the asteroids in the rings of Bruised Brother.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>3</ID>
+		<Text>TULIP: This seems the best course of action. The ring system is large enough to not cause conciderable maneuvers to objects that call Bruised Brother their orbital parent.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>4</ID>
+		<Text>FERN: The stone making up this asteroid and its peers is highly unstable. I doubt long-term stability would be an option with this.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>5</ID>
+		<Text>Solution 2: Excavate Familliar Refuse.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>5</ParentID>
+		<ID>6</ID>
+		<Text>BASIL: No, No, and No. If we do, it's nearly certain the diverse ecosystem(s) of Familliar Refuse would collapse. It may be durable, but it sure is horrible.</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,258 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Familliar Refuse",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 66,
+		"surfaceGravity": 7,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+			"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 1922,
+		"primaryBody": "Bruised Brother",
+		"inclination": 11,
+		"isMoon": false,
+		"siderealPeriod": 1.75
+	},
+	"Props": {
+				"geysers": [
+			{
+				"position": {"x": 38.8765, "y": -26.96621, "z": 12.72086},
+"rotation": {"x": 337.833, "y": 356.6102, "z": 233.9147}
+			}
+		],
+		"translatorText": [
+			{
+				"xmlFile": "planets/xml/exploringAFracturedWorld.xml",
+				"type": "preCrashRecorder",
+				"rename": "worldyworldyson",
+"position": {"x": 1.977148, "y": 2.305824, "z": 80.37563},
+"rotation": {"x": -346.2912, "y": -94.11726, "z": -87.82762}
+			},
+						{
+				"xmlFile": "planets/xml/whyAreYouHereInMyLife.xml",
+				"type": "preCrashRecorder",
+				"rename": "alienalienson",
+"position": {"x": 12.87241, "y": 38.33867, "z": -27.6538},
+"rotation": {"x": -337.3312, "y": -33.50604, "z": -327.4879}
+			},
+									{
+				"xmlFile": "planets/xml/TheFirstCode.xml",
+				"type": "scroll",
+				"rename": "othercodeothercodeyseon",
+"position": {"x": 12.61656, "y": 1.551311, "z": -47.31169},
+"rotation": {"x": 334.9727, "y": 255.6075, "z": 88.21321}
+			},
+						{
+				"type": "whiteboard",
+"position": {"x": -1.263823, "y": -0.7254791, "z": 80.5068},
+"rotation": {"x": 6.798604, "y": 88.9578, "z": 90.83521}
+			},
+			{
+				"xmlFile": "planets/xml/MoistCrater.xml",
+				"type": "scroll",
+				"rename": "moistymoisterson",
+"position": {"x": -49.69526, "y": -8.575027, "z": -6.348553},
+"rotation": {"x": 292.1777, "y": 177.7678, "z": 261.072}
+			},
+						{
+				"xmlFile": "planets/xml/Crater.xml",
+				"type": "scroll",
+				"rename": "crateycraterson",
+"position": {"x": -7.154451, "y": -20.59194, "z": -56.88366},
+"rotation": {"x": 346.739, "y": 98.13387, "z": 246.3186}
+			},
+									{
+				"xmlFile": "planets/xml/SeekerCrater.xml",
+				"type": "scroll",
+				"rename": "seekerseekerson",
+"position": {"x": 8.074366, "y": 48.1226, "z": -4.371849},
+"rotation": {"x": 352.1748, "y": 251.0814, "z": 7.784051},
+"seed": 582
+			},
+												{
+				"xmlFile": "planets/xml/SunRising.xml",
+				"type": "scroll",
+				"rename": "seekerseekerson",
+"position": {"x": 44.90221, "y": 54.29642, "z": 6.785488},
+"rotation": {"x": 311.1805, "y": 151.9925, "z": 97.68182}
+			},
+												{
+				"type": "preCrashComputer",
+"position": {"x": 15.15451, "y": 2.441422, "z": -46.52854},
+"rotation": {"x": 338.0069, "y": 252.4254, "z": 86.49049},
+"xmlFile": "planets/xml/brodcasting.xml"
+			}
+		],
+			"signals": [
+		{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 8,
+			"identificationRadius": 5,
+			"name": "Refuse Brodcaster",
+			"frequency": "Secondary Brodcast",
+"position": {"x": 15.15451, "y": 2.441422, "z": -46.52854}
+			
+		}
+	],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Planet_bundle/refusebundle",
+				"path": "Assets/Shitty moddles/Refuse.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 8,
+				"keepLoaded": true
+			},
+						{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5", 
+				"position": {"x": -75.5641, "y": 38.2976, "z": 110.4277},
+				"rotation": {"x": 25.3989, "y": 203.7535, "z": 2.2669},
+				"stretch": {"x": 0.8, "y": 1.2, "z": 0.5},
+				"keepLoaded": true
+			},
+						{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {"x": 13.4677, "y": -30.2913, "z": -52.6161},
+				"rotation": {"x": 314.485, "y": 100.8753, "z": 249.1367}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {"x": -5.0879, "y": -15.867, "z": -58.6782},
+				"rotation": {"x": 292.3694, "y": 178.9384, "z": 200.308}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": 14.90288, "y": -2.429245, "z": -64.05482},
+"rotation": {"x": 68.67385, "y": 14.29514, "z": 198.7414}
+			},
+									{
+				"path" : "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_15",
+"position": {"x": 503.0323, "y": -20.3608, "z": 5.3126},
+"rotation": {"x": 276.0348, "y": 94.3328, "z": 0.132},
+				"keepLoaded": true,
+				"scale": 1
+			},
+												{
+				"path" : "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_16",
+"position": {"x": 503.0323, "y": -20.3608, "z": 5.3126},
+"rotation": {"x": 276.0348, "y": 94.3328, "z": 0.132},
+				"keepLoaded": true,
+				"scale": 1
+			},
+							{
+			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+"position": {"x": 18.19854, "y": -43.71928, "z": 12.55277},
+"rotation": {"x": 1.926399, "y": 149.6256, "z": 152.6346},
+"keepLoaded": true,
+"scale": 2
+		},
+									{
+			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+"position": {"x": 18.79345, "y": -45.22138, "z": 1.297604},
+"rotation": {"x": 19.04009, "y": 300.3705, "z": 192.6868},
+"keepLoaded": true,
+"scale": 0.5
+		},
+											{
+			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+"position": {"x": 31.51388, "y": -37.00609, "z": 6.157471},
+"rotation": {"x": 41.59045, "y": 258.7222, "z": 179.9479},
+"keepLoaded": true,
+"scale": 1
+			},
+														{
+			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
+				"position": {"x": 38.8765, "y": -26.96621, "z": 12.72086},
+"rotation": {"x": 337.833, "y": 356.6102, "z": 233.9147},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": -9.915261, "y": 45.65646, "z": -14.73866},
+"rotation": {"x": 341.4773, "y": 63.31071, "z": 350.1623},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": -3.41703, "y": 48.81684, "z": -2.421238},
+"rotation": {"x": 357.8837, "y": 107.2467, "z": 355.9856},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": 22.8066, "y": 41.15151, "z": -13.65169},
+"rotation": {"x": 339.2089, "y": 355.0985, "z": 333.8942},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": 30.94838, "y": 37.76791, "z": 3.981991},
+"rotation": {"x": 323.8374, "y": 235.1051, "z": 17.3525},
+"keepLoaded": true
+			},
+									    {
+      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+"position": {"x": 5.815858, "y": -4.920841, "z": 80.05391},
+"rotation": {"x": 320.4748, "y": 277.8981, "z": 267.2822},
+"keepLoaded": true
+    }
+		]
+	},
+	"Atmosphere": {
+		"size": 86,
+		"fogSize": 86,
+		"hasTrees": true,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 45,
+			"g": 100,
+			"b": 200,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 45,
+			"g": 100,
+			"b": 200,
+			"a": 255
+		}
+	},
+		"Volumes": {
+			"oxygenVolumes": [
+				{
+					"radius": 86
+				}
+			],
+		"audioVolumes": [
+			{
+				"loop": true,
+				"track": "music",
+				"audio": "planets/music/Familiar Refuse.mp3",
+				"radius": 90,
+				"volume": 1
+			}
+		]
+	},
+		"HeightMap": {
+		"heightMap": "planets/assets/FR_h.png",
+		"textureMap": "planets/assets/FR_c.png",
+		"minHeight": 47,
+		"maxHeight": 49
+	},
+	"Water": {
+		"size": 48
+	},
+	  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Refuse.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/FR.png",
+			"scale": 1
+		}
+	}
+}

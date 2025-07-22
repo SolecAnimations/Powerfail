@@ -1,0 +1,167 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sunset Sister",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 160,
+		"surfaceGravity": 14,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+			"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 1244,
+		"primaryBody": "Bruised Brother",
+		"isTidallyLocked": true,
+		"inclination": 11,
+		"isMoon": false,
+		"siderealPeriod": 1.75
+	},
+	"Props": {
+		"translatorText": [
+						{
+				"type": "whiteboard",
+"position": {"x": 134.6097, "y": -103.8604, "z": -7.330017},
+"rotation": {"x": 357.324, "y": 183.8212, "z": 126.5951}
+			},
+			{
+				"type": "preCrashRecorder",
+"position": {"x": 130.0375, "y": -109.8542, "z": -8.355927},
+"rotation": {"x": -333.0529, "y": -163.9082, "z": -133.7753},
+"xmlFile": "planets/xml/OopsIDroppedIt.xml"
+			},
+			{
+				"type": "scroll",
+"position": {"x": 58.36527, "y": -51.25509, "z": 6.34754},
+"rotation": {"x": 10.05566, "y": 345.025, "z": 228.6843},
+"xmlFile": "planets/xml/Discovery.xml",
+"seed": 4218
+			},
+						{
+				"type": "scroll",
+"position": {"x": 5.17395, "y": -6.819963, "z": -133.3493},
+"rotation": {"x": 59.94481, "y": 85.57355, "z": 267.4719},
+"xmlFile": "planets/xml/theInvisibleBehindMyEyes.xml"
+			},
+									{
+				"type": "scroll",
+"position": {"x": -54.72196, "y": 40.6234, "z": 195.4116},
+"rotation": {"x": 317.2371, "y": 86.53614, "z": 71.3083},
+"xmlFile": "planets/xml/LinkingToAProject.xml"
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Better_bundle/brother",
+				"path": "Assets/Shitty moddles/SS_2.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": -90,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 78,
+				"keepLoaded": true
+			},
+												    {
+      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+"position": {"x": 129.121, "y": -110.1535, "z": -13.60687},
+"rotation": {"x": 308.5271, "y": 87.10574, "z": 188.07},
+"keepLoaded": true
+    }
+		],
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"horizonRadius": 61,
+				"distortRadius": 62
+			}
+		]
+	},
+	"Star": {
+		"stellarDeathType": "planetaryNebula",
+		"lifespan": 23,
+		"lightRadius": 2800,
+		"size": 85,
+		"solarLuminosity": 1.4,
+		"endTint": {
+      "r": 255,
+      "g": 156,
+      "b": 0
+		},
+	 "lightTint": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "tint": {
+      "r": 255,
+      "g": 250,
+      "b": 0
+    },
+	"curve": [
+		{
+			"time": 0,
+			"value": 1
+		},
+		{
+			"time": 18,
+			"value": 1.6
+		},
+				{
+			"time": 18.5,
+			"value": 0
+		}
+	]
+  },
+  		"Volumes": {
+		"audioVolumes": [
+			{
+				"loop": true,
+				"track": "music",
+				"audio": "planets/music/Sunset Sister.mp3",
+				"radius": 260,
+				"volume": 1
+			}
+		]
+	},
+  "Funnel": {
+	"target": "Bruised Brother",
+	"type": "star",
+	"tint": {
+      "r": 255,
+      "g": 106,
+      "b": 0
+	},
+		"curve": [
+		{
+			"time": 9,
+			"value": 0
+		},
+		{
+			"time": 9.5,
+			"value": 1
+		},
+				{
+			"time": 17,
+			"value": 1
+		},
+				{
+			"time": 17.5,
+			"value": 0
+		}
+	]
+  },
+  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Sister.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/SS.png",
+			"scale": 1.2
+		}
+	}
+}

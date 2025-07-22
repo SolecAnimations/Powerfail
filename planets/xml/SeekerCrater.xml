@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TULIP: I am worried.</Text>		
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>2</ID>
+		<Text>TULIP: There are many <![CDATA[<color=orange>miniature</color>]]> systems coming towards our vessel. What if we do not finish the SSPU on time?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>3</ID>
+		<Text>FERN: Fret not, Tulip. If any Nomai or sentient being is from those systems, we can simply add safegaurds to the SSPU.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>3</ParentID>
+		<ID>4</ID>
+		<Text>FERN: We have many scrolls, after all.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>5</ID>
+		<Text>BASIL: Hypothesis: It would be beneficial for all of us if you stopped worrying about the simplest things.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Other_System_Mentions</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

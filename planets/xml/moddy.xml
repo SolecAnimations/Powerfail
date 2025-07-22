@@ -1,0 +1,27 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DISTURBANCE DETECTED: Astral Body [StellarSiblings]: SSPU operational. Unusual Nomai activity detected.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Aligning platform to Astral Body.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Exploration requested.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Nomai_activity</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	
+		<RevealFact>
+			<FactID>Rumor_SSPU</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

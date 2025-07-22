@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: Linked the scrolls to the SPPU this loop. Now they'll stay in the positions I set them in on any given loop.</Text>
+	</TextBlock>
+		<TextBlock>
+			<ParentID>1</ParentID>
+			<ID>2</ID>
+		<Text>BASIL: Not much, but still wanted to write it down.</Text>
+	</TextBlock>
+	
+</NomaiObject>

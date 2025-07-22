@@ -1,0 +1,259 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bruised Brother",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 750,
+		"surfaceGravity": 24,
+		"hasMapMarker": true,
+		"ambientLight": 0.5,
+		"hasFluidDetector": false,
+		 "centerOfSolarSystem": true
+	},
+	"AsteroidBelt": {
+		"innerRadius": 2000,
+		"outerRadius": 2500,
+		"amount": 200,
+		"maxSize": 30,
+		"minSize": 18,
+		"inclination": 30,
+		"procGen": {
+			"color": {
+				"r": 80,
+				"g": 80,
+				"b": 80
+			},
+			"material": "rock"
+		}
+	},
+	"AmbientLights": [
+		{
+			"innerRadius": 530,
+			"outerRadius": 753,
+			"intensity": 3
+		}
+	],
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"loop": true,
+				"track": "music",
+				"audio": "planets/music/Bruised Brother.mp3",
+				"radius": 530,
+				"volume": 1
+			}
+		],
+		"revealVolumes": [
+			{
+				"radius": 2500,
+				"reveals": [
+					"BROTHER_DISCOVERY",
+					"REFUSE_DISCOVERY",
+					"SISTER_DISCOVERY",
+					"LIGHTBULB_DISCOVERY"
+				]
+			},
+			{
+				"radius": 30,
+				"reveals": [ "SSPU_Enterance" ],
+				"revealFor": "both",
+				"position": {"x": 148.708, "y": -193.5996, "z": 195.9802}
+				
+			}
+		]
+	},
+  "Orbit": {
+    "staticPosition": {
+      "x": 8000,
+      "y": 2000,
+      "z": 7000
+    }
+},
+"Props": {
+	"warpTransmitters": [
+		{
+			"alignmentWindow": 360,
+			"frequency": "Brother-Maze",
+			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
+"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
+		}
+	],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Better_bundle/brother",
+				"path": "Assets/Shitty moddles/Brother.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 78,
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -137.4382, "y": -224.0013, "z": -153.6581},
+"rotation": {"x": 41.6259, "y": 58.85465, "z": 191.5558},
+"scale": 4
+			},
+						{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -127.5757, "y": -227.8629, "z": -166.4273},
+"rotation": {"x": 47.18943, "y": 30.81925, "z": 170.1614},
+"scale": 4
+			},
+									{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -119.4344, "y": -231.631, "z": -171.4688},
+"rotation": {"x": 334.8671, "y": 148.0969, "z": 203.407},
+"scale": 4
+			},
+						{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -104.4651, "y": -233.0254, "z": -175.3365},
+"rotation": {"x": 353.7529, "y": 294.3175, "z": 139.4709},
+"scale": 4
+			},
+									{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -179.8101, "y": -234.9267, "z": -100.0327},
+"rotation": {"x": 49.95689, "y": 105.9751, "z": 222.8627},
+"scale": 4
+			},
+												{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": -202.2585, "y": -236.4874, "z": -15.53499},
+"rotation": {"x": 42.25726, "y": 36.05353, "z": 140.7697},
+"scale": 4
+			}
+		],
+		"translatorText": [
+  			{
+				"xmlFile": "planets/xml/findTheGuise.xml",
+				"type": "preCrashComputer",
+				"rename": "guiseyguiserson",
+"position": {"x": -291.9107, "y": 203.7384, "z": 61.74735},
+"rotation": {"x": 33.05231, "y": 160.7187, "z": 174.817}
+			},
+			  			{
+				"xmlFile": "planets/xml/NavigatingAHole.xml",
+				"type": "preCrashRecorder",
+				"rename": "navigatenavigatorson",
+"position": {"x": 0.1366286, "y": -314.7431, "z": 22.78672},
+"rotation": {"x": -356.1637, "y": -37.14842, "z": -177.0982}
+			},
+									{
+				"type": "preCrashComputer",
+"position": {"x": -0.8948452, "y": -314.9887, "z": 18.79176},
+"rotation": {"x": 359.4281, "y": 79.69088, "z": 176.8589},
+"xmlFile": "planets/xml/brodcasting.xml"
+			},
+												{
+				"type": "preCrashComputer",
+"position": {"x": 150.7702, "y": -187.2852, "z": 200.4671},
+"rotation": {"x": 26.74036, "y": 284.6986, "z": 228.452},
+"xmlFile": "planets/xml/WarpingsDangers.xml"
+			},
+			  			{
+				"xmlFile": "planets/xml/ACodeUncovered.xml",
+				"type": "preCrashRecorder",
+				"rename": "codeycoderson",
+"position": {"x": 603.8593, "y": 265.4477, "z": -28.38388},
+"rotation": {"x": -355.3437, "y": -358.1924, "z": -291.2441}
+			}
+    ],
+	"signals": [
+		{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 85,
+			"identificationRadius": 5,
+			"name": "Third Brodcaster",
+			"frequency": "Secondary Brodcast",
+"position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
+			
+		},
+				{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 15,
+			"identificationRadius": 5,
+			"name": "Cloud Brodcaster",
+			"frequency": "Secondary Brodcast",
+"position": {"x": 603.8593, "y": 265.4477, "z": -28.38388}
+			
+		},
+				{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 55,
+			"identificationRadius": 5,
+			"name": "First Brodcaster",
+			"frequency": "Signal Brodcasters",
+"position": {"x": -0.8822226, "y": -317.6028, "z": 18.97661}
+			
+		},
+						{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 55,
+			"identificationRadius": 5,
+			"name": "Spike Brodcaster",
+			"frequency": "Signal Brodcasters",
+"position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
+			
+		}
+	]
+	},
+				"HeightMap": {
+		"heightMap": "planets/assets/BB_h.png",
+		"textureMap": "planets/assets/BB_c.png",
+		"minHeight": 280,
+		"maxHeight": 320
+	},
+	"Atmosphere": {
+		"size": 750,
+		"fogSize": 750,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+				"r": 149,
+				"g": 66,
+				"b": 245,
+			"a": 255
+		},
+		"fogTint": {
+				"r": 149,
+				"g": 66,
+				"b": 245,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/BB_cc.png",
+			"outerCloudRadius": 749,
+			"innerCloudRadius": 639,
+			"tint": {
+				"r": 149,
+				"g": 66,
+				"b": 245,
+				"a": 255
+			}
+		}
+	},
+	"Sand": {
+		"size": 410,
+		"curve": [
+			{
+			"time": 9,
+			"value": 0.7
+			},
+						{
+			"time": 22,
+			"value": 1
+			}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Brother.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/BB.png",
+			"scale": 2
+		}
+	}
+}

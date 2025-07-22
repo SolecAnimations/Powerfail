@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DAHLIA: I decided to go to this crater, the one with a single tree in particular.</Text>		
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>2</ID>
+		<Text>DAHLIA: Water. A lot of water.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>3</ID>
+		<Text>DAHLIA: Interestingly, it seems the tree's size prevented others from growing. It also seems to have no intrest in reproducing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>3</ParentID>
+		<ID>4</ID>
+		<Text>DAHLIA: Hypothesis: This tree, and the other flora and fauna on Familliar Refuse is not of this world.</Text>
+	</TextBlock>
+</NomaiObject>

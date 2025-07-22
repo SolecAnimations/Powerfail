@@ -1,0 +1,22 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: I ripped the warp core out of the Central Station.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>BASIL: Now, me, you may ask "Why did you tear the warp core out of your own vessel? You're trapped here now!"</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>BASIL: Foolish question! I inserted it INTO the SSPU! The sheer energy of the compacted star of Sunset Sister gives the warp core enough power for a noticable warp back in time. In other words, TIME BENDS BEFORE MY WILL!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>SSPU_ATP</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

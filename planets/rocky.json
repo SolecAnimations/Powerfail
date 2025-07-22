@@ -1,0 +1,114 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "BruisedBrotherAsteroid10",
+	"starSystem": "Jam5",
+	"HeightMap": {
+		"heightMap": "planets/assets/A_h.png",
+		"textureMap": "planets/assets/A_c.png",
+		"minHeight": 15,
+		"maxHeight": 21
+	},
+	"Volumes": {
+				"revealVolumes": [
+			{
+				"radius": 30,
+				"reveals": [
+					"BASPIC1",
+					"BASPIC2",
+					"BASPIC3"
+				]
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"radius": 12,
+				"treeVolume": true,
+				"position": {"x": -19.22805, "y": 2.321092, "z": -8.10498}
+			}
+		]
+	},
+"Props": {
+	"details": [
+		    {
+      "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
+"position": {"x": -20.93678, "y": -0.209034, "z": -1.583775},
+"rotation": {"x": 75.56512, "y": 175.191, "z": 269.9999}
+    },
+			    {
+      "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
+"position": {"x": -19.7065, "y": 4.632248, "z": -5.572495},
+"rotation": {"x": 55.48839, "y": 324.1974, "z": 65.91585}
+    },
+			    {
+      "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
+"position": {"x": -16.96288, "y": 7.689705, "z": -9.69351},
+"rotation": {"x": 46.4641, "y": 174.9462, "z": 301.7118}
+    },
+				    {
+      "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+"position": {"x": -19.22805, "y": 2.321092, "z": -8.10498},
+"rotation": {"x": 17.60072, "y": 335.1277, "z": 83.1487}
+    },
+					    {
+      "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+"position": {"x": -19.22805, "y": 2.321092, "z": -8.10498},
+"rotation": {"x": 17.60072, "y": 335.1277, "z": 83.1487}
+    },
+						    {
+      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+"position": {"x": -17.00232, "y": 8.735304, "z": -8.6878},
+"rotation": {"x": 57.16419, "y": 286.0577, "z": 38.87216}
+    }
+	],
+	"signals": [
+		{
+			"audio": "NomaiEscapePodDistressSignal_LP",
+			"detectionRadius": 25,
+			"identificationRadius": 5,
+			"name": "Second Brodcaster",
+			"frequency": "Signal Brodcasters",
+"position": {"x": -22.54999, "y": -0.102066, "z": -7.014376}
+			
+			},
+					{
+			"audio": "planets/music/morse.wav",
+			"detectionRadius": 25,
+			"identificationRadius": 5,
+			"name": "Asteroid Brodcaster",
+			"frequency": "Morse",
+			"reveals": "FOUND_MORSE",
+"position": {"x": -23.08217, "y": -1.500015, "z": -4.763678}
+			
+			}
+		],
+		"translatorText": [
+			{
+				"type": "whiteboard",
+"position": {"x": -20.87297, "y": -1.382923, "z": 1.810127},
+"rotation": {"x": 336.2921, "y": 186.2515, "z": 266.4856},
+"xmlFile": "planets/xml/HarvestedMetal.xml"
+			},
+						{
+				"type": "preCrashComputer",
+"position": {"x": -20.04044, "y": -0.1727161, "z": -6.260307},
+"rotation": {"x": 299.1339, "y": 343.0027, "z": 90.00002},
+"xmlFile": "planets/xml/brodcasting.xml"
+			},
+									{
+				"type": "preCrashComputer",
+"position": {"x": -20.51679, "y": -1.424599, "z": -4.230129},
+"rotation": {"x": 295.5193, "y": 341.6098, "z": 97.50325},
+"xmlFile": "planets/xml/brodcasting.xml"
+			}
+		]
+	},
+	  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Asteroid.xml",
+		"mapMode" : {
+			"invisibleWhenHidden": true,
+			"revealedSprite": "planets/assets/A.png",
+			"scale": 0.3
+		}
+	}
+}

@@ -1,0 +1,7 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TULIP: Navigation of this planet's moon system has proved to be difficult; I am brodcasting a signal via this audio emission device near this recorder in hopes of helping me and my peers.</Text>
+	</TextBlock>
+	
+</NomaiObject>

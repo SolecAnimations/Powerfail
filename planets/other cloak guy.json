@@ -1,0 +1,83 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Maze",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 120,
+		"surfaceGravity": 8,
+		"hasMapMarker": false,
+		"ambientLight": 0.5,
+		"hasFluidDetector": false
+},
+"Orbit": {
+	"isStatic": true,
+	"staticPosition": {
+		"x": 0,
+		"y": 5700,
+		"z": 10000
+	}
+},
+"Volumes": {
+	"hazardVolumes": [
+		{
+			"type": "heat",
+			"damagePerSecond": 1,
+			"radius": 120
+		}
+	],
+	"mapRestrictionVolumes": [
+		{
+			"radius": 120
+		}
+	]
+},
+"Props": {
+		"warpReceivers": [
+		{
+			"frequency": "Brother-Maze",
+"position": {"x": 2.750885, "y": 50.79654, "z": -1.355571},
+"rotation": {"x": 4.200294, "y": 96.79932, "z": 0.5003365}
+		}
+	],
+	"warpTransmitters": [
+		{
+			"alignmentWindow": 360,
+			"frequency": "SSPU-Maze",
+"position": {"x": 40.86359, "y": -6.715394, "z": 29.43878},
+"rotation": {"x": 356.6691, "y": 324.3164, "z": 264.5723}
+		}
+	],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Planet_bundle/refusebundle",
+				"path": "Assets/Shitty moddles/Maze.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 51,
+				"keepLoaded": true
+			}
+		]
+	},
+			"Atmosphere": {
+		"size": 89,
+		"fogSize": 89,
+		"clouds": {
+			"texturePath": "planets/assets/CF.png",
+			"outerCloudRadius": 89,
+			"innerCloudRadius": 84,
+			"unlit": true,
+			"tint": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			}
+		}
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	}
+}

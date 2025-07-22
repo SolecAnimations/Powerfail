@@ -1,0 +1,39 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: The sunrise is beautiful, dont'chya think?</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BASIL: ...Right, my discovery.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>BASIL: Last loop, I checked Sunset Sister, and the level of the star was higher than usual.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>BASIL: Quite literaly, a Sun-rise.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>BASIL: As I was looking upon it, I saw it shrink, and collapse, via planetary nebula. All that was left was a white repulsing dwarf at the center of the moon.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>BASIL: Note to self: Recover Dahlia's lost scroll.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Sun_Rise_Haha_Get_It_Right?-Basil</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

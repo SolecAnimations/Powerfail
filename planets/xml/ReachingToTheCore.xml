@@ -1,0 +1,14 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>The enterance to the SSPU is 421+50 -12 769-1285 !8@-28_7 23+-</Text>		
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Reaching_To_The_Core</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

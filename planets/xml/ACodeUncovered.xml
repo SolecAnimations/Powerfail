@@ -1,0 +1,14 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>b=4,  h=1 ,i=+ ,n=5 ,d=0 ,t=- , e=2 ,o=6 ,u=9 , S=7 ,r=8 ,c=! ,a=@ '=_ x=3</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cloud_Code</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

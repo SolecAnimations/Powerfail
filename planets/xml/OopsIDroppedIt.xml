@@ -1,0 +1,23 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TULIP: Er, Fern, I have something to tell you.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>FERN: Hm? Yes, Tulip?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>TULIP: I accidently dropped the scroll. With our discovery. Into the compacted star.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>FERN: You really need to stop doing that.</Text>
+	</TextBlock>
+	
+</NomaiObject>

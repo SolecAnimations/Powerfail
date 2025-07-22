@@ -1,0 +1,39 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DAHLIA: I have something exciting to tell you all!</Text>		
+	</TextBlock>
+	<TextBlock>
+		<ParentID>1</ParentID>
+		<ID>2</ID>
+		<Text>DAHLIA: On my last visit to the purple planet, I spotted something through the thick cloud cover on the south pole. A large crater made itself known!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>3</ID>
+		<Text>DAHLIA: This allowed me to descend into the hollowed-out middle of the planet, and it turns out what I thought was the surface was just a shell.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>3</ParentID>
+		<ID>4</ID>
+		<Text>FERN: Dahlia, This is monumental! I'll get the shuttle ready for further exploration.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>3</ParentID>
+		<ID>5</ID>
+		<Text>BASIL: I wonder how it stays above the core, then.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>3</ParentID>
+		<ID>6</ID>
+		<Text>TULIP: Intresting! Do you suppose life is possible in the hollow?</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Crater_Opened</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

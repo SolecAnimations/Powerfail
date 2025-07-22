@@ -1,0 +1,30 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TULIP: Fern, the SSPU is ready for ignition.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>FERN: Good, Tulip. Starting the generators now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>WARN; Low cave stability.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>WARN; Cave stability decreasing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>BASIL: Wait-no-no-no-NO-</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>SSPU_Catastrophe</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

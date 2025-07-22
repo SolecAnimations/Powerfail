@@ -1,0 +1,7 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>FERN: This moon is very interesting! I presume this should be good enough for a long-term outpost. I'm aching to explore this moon in further, so I propose we split up and explore.</Text>
+	</TextBlock>
+	
+</NomaiObject>

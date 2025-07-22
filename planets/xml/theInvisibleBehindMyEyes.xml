@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: After a short detour to Bruised Brother near the end of the loop, I encountered a revelation that just made my life all the more intresting!</Text>
+	</TextBlock>
+		<TextBlock>
+			<ParentID>1</ParentID>
+			<ID>2</ID>
+		<Text>BASIL: The small pores in the stone of this large planet seem to let liquids pass through, one of said liquids being Sunset Sister's compacted star.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ParentID>2</ParentID>
+		<ID>3</ID>
+		<Text>BASIL: After the funnel between Sunset Sister and it opened, the sand in the shell was let out, starting to fill up the core with sand.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Sand_Rising</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

@@ -1,0 +1,95 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>POWERFAIL_BROTHER_DESC</ID>
+
+	<Entry>
+		<ID>BROTHER</ID>
+		<Name>Bruised Brother</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>BROTHER_DISCOVERY</ID>
+			<Text>The primary component of the Stellar Siblings. It has an asteroid ring and purple hue.</Text>
+		</ExploreFact>
+	</Entry>
+	
+	<Entry>
+		<ID>Nomai_computer</ID>
+		<Name>System Scanning Computer</Name>
+
+		<Curiosity>SSPU</Curiosity>
+		
+		<ExploreFact>
+			<ID>Nomai_activity</ID>
+			<Text>A Nomai computer detected unusual Nomai activity inside a miniature system called the Stellar Siblings.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Sunset_Sister_Power_Unit</ID>
+		<Name>Sunset Sister Power Unit</Name>
+
+		<Curiosity>SSPU</Curiosity>
+		<IsCuriosity/> true
+
+		<RumorFact>
+			<ID>Rumor_SSPU</ID>
+			<SourceID>Nomai_computer</SourceID>
+			<RumorName>SSPU</RumorName>
+			<Text>The system scanner reported the "SSPU" was operational.</Text>
+		</RumorFact>
+		
+		<ExploreFact>
+			<ID>SSPU_Catastrophe</ID>
+			<Text>A cave collapse killed Dahlia, Tulip, and Fern.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>SSPU_ATP</ID>
+			<Text>Basil ripped out the warp core from the Central Station and inserted it into the SSPU, essentially making another Ash Twin Project.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Basil</ID>
+			<Text>I met Basil inside of the SSPU! They've seen me wandering around, and tracked my origins down to X3NJ-AM3 and my home system; Goldspark.</Text>
+		</ExploreFact>
+
+	</Entry>
+
+	<Entry>
+		<ID>Cracking_Open</ID>
+		<Name>Rising Sand</Name>
+
+		<Curiosity>SSPU</Curiosity>
+		
+		<ExploreFact>
+			<ID>Sand_Rising</ID>
+			<Text>Basil noted down that later in the loop, when a funnel of plasma opens between Sunset Sister and Bruised Brother, sand starts filling up the interior of Bruised Brother.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Discovery</ID>
+		<Name>Southern Crater</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Crater_Opened</ID>
+			<Text>Dahlia found a crater opening up into Bruised Brother's interior on its south pole.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>SPACKLE</ID>
+		<Name>Cloud Recorder</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>Cloud_Code</ID>
+			<Text>I found a code in the clouds of Bruised Brother descripting <![CDATA[<color=red>b=4, e=2, h=1 ,i=+ ,n=5 ,d=0 ,t=- ,S=7 ,o=6 ,u=9 ,r=8 ,c=! ,a=@</color>]]></Text>
+		</ExploreFact>
+	</Entry>
+	
+</AstroObjectEntry>

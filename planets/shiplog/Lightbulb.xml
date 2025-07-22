@@ -1,0 +1,37 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>POWERFAIL_LIGHTBULB_DESC</ID>
+
+	<Entry>
+		<ID>LIGHTBULB</ID>
+		<Name>Refuse's Lightbulb</Name>
+		<Curiosity>SSPU</Curiosity>
+		<ExploreFact>
+			<ID>LIGHTBULB_DISCOVERY</ID>
+			<Text>A submoon of Familiar Refuse. It is covered in lava, and has one small rocky area too small to land my ship on.</Text>
+		</ExploreFact>
+	</Entry>
+	
+	<Entry>
+		<ID>Scroll_spots</ID>
+		<Name>Scroll Locations</Name>
+		<Curiosity>SSPU</Curiosity>
+		<ExploreFact>
+            <ID>That_Just_Happened</ID>
+            <Text>Basil put scrolls at the tallest pillar and south pole of Sunset Sister, as well as the lively crater on Familiar Refuse.</Text>
+        </ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>SSPU_Encrypted</ID>
+		<Name>SSPU's Location</Name>
+		<Curiosity>SSPU</Curiosity>
+		<RumorFact>
+            <ID>Reaching_To_The_Core</ID>
+            <Text>The location of the SSPU is encrypted, the code reads <![CDATA[<color=red>"421+50 -12 769-1285 !8@-28_7 23+-"</color>]]></Text>
+        </RumorFact>
+		<ExploreFact>
+			<ID>SSPU_Enterance</ID>
+			<Text>I found the enterance to the SSPU behind the exit to the southern crater.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>
