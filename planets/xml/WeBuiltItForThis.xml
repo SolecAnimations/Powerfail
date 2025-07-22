@@ -1,0 +1,23 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: We built the SSPU to wirelessly recharge warp cores.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>BASIL: Hence why I plugged in one of our own.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>BASIL: I was too late. 22 minutes is the time it set in, and my friends turned into a heaping mess of blood an hour ago.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>BASIL: I do not know what to do.</Text>
+	</TextBlock>
+	
+</NomaiObject>
