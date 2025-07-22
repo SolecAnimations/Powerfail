@@ -1,3 +1,4 @@
+<img width="1505" height="502" alt="image" src="https://github.com/user-attachments/assets/e68b5cb4-d2e9-439b-9ffe-737c8f513f8e" />
 A mod for the fifth Outer Wilds Modding jam.
 
 Have some quotes from the developers!
