@@ -3,7 +3,7 @@
 	"name": "Bruised Brother",
 	"starSystem": "Jam5",
 	"Base": {
-		"surfaceSize": 750,
+		"surfaceSize": 450,
 		"surfaceGravity": 24,
 		"hasMapMarker": true,
 		"ambientLight": 0.5,
@@ -13,7 +13,7 @@
 	"AsteroidBelt": {
 		"innerRadius": 2000,
 		"outerRadius": 2500,
-		"amount": 200,
+		"amount": 70,
 		"maxSize": 30,
 		"minSize": 18,
 		"inclination": 30,
@@ -70,6 +70,13 @@
     }
 },
 "Props": {
+	"dialogue": [
+		{
+			"radius": 5,
+			"xmlFile": "planets/xml/secret.xml",
+			"position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161}
+		}
+	],
 	"warpTransmitters": [
 		{
 			"alignmentWindow": 360,
@@ -95,6 +102,12 @@
 "position": {"x": -137.4382, "y": -224.0013, "z": -153.6581},
 "rotation": {"x": 41.6259, "y": 58.85465, "z": 191.5558},
 "scale": 4
+			},
+						{
+				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4",
+"position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161},
+"rotation": {"x": 359.6807, "y": 182.0245, "z": 8.958498},
+"scale": 1
 			},
 						{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",

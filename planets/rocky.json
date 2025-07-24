@@ -76,7 +76,6 @@
 			"identificationRadius": 5,
 			"name": "Asteroid Brodcaster",
 			"frequency": "Morse",
-			"reveals": "FOUND_MORSE",
 "position": {"x": -23.08217, "y": -1.500015, "z": -4.763678}
 			
 			}

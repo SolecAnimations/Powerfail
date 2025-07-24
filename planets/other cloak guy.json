@@ -9,14 +9,6 @@
 		"ambientLight": 0.5,
 		"hasFluidDetector": false
 },
-"Orbit": {
-	"isStatic": true,
-	"staticPosition": {
-		"x": 0,
-		"y": 5700,
-		"z": 10000
-	}
-},
 "Volumes": {
 	"hazardVolumes": [
 		{
@@ -61,22 +53,22 @@
 			}
 		]
 	},
-			"Atmosphere": {
-		"size": 89,
-		"fogSize": 89,
-		"clouds": {
-			"texturePath": "planets/assets/CF.png",
-			"outerCloudRadius": 89,
-			"innerCloudRadius": 84,
-			"unlit": true,
-			"tint": {
-				"r": 0,
-				"g": 0,
-				"b": 0,
-				"a": 0
-			}
-		}
-	},
+"Cloak": 
+{
+    "radius": 100,
+    "farCloakRadius": 105,
+    "innerCloakRadius": 95,
+    "nearCloakRadius": 90
+},
+
+"Orbit": {
+    "isStatic": true,
+    "staticPosition": {
+        "x": 0,
+        "y": -2400,
+        "z": 0
+    }
+},
 	"ReferenceFrame": {
 		"enabled": false
 	}

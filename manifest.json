@@ -1,10 +1,12 @@
 {
-  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "StellarSibilings.dll",
-  "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)",
-  "name": "Powerfail",
   "uniqueName": "TeamGeswaldo.Jam5",
-  "version": "1.0.1",
+  "name": "Powerfail",
+  "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)",
+  "version": "1.0.6",
+  "filename": "StellarSibilings.dll",
   "owmlVersion": "2.15.1",
-  "dependencies": [ "xen.NewHorizons", "xen-42.ModJam5" ]
+  "dependencies": [
+    "xen.NewHorizons",
+    "xen-42.ModJam5"
+  ]
 }

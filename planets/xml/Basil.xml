@@ -5,15 +5,18 @@
 		<Name>Entry</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hello, Obsidian. And welcome to the Sunset Sister Power Unit.</Page>
+			<Page>Hello, Hatchling. And welcome to the Sunset Sister Power Unit.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>Basil</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>How do you know my language?</Text>
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>How do you know my name?</Text>
+				<Text>How did you get those pictures of me?</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -42,7 +45,7 @@
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>How do you know my name?</Text>
+				<Text>How did you get those pictures of me?</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
