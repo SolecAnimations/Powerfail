@@ -6,7 +6,7 @@
 	<TextBlock>
 		<ParentID>1</ParentID>
 		<ID>2</ID>
-		<Text>TULIP: There are many <![CDATA[<color=orange>miniature</color>]]> systems coming towards our vessel. What if we do not finish the SSPU on time?</Text>
+		<Text>TULIP: The <![CDATA[<color=orange>miniature</color>]]> systems are coming towards our vessel faster then we thought. What if we do not finish the SSPU on time?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ParentID>2</ParentID>

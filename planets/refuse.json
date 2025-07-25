@@ -3,10 +3,11 @@
 	"name": "Familliar Refuse",
 	"starSystem": "Jam5",
 	"Base": {
-		"surfaceSize": 66,
-		"surfaceGravity": 7,
+		"surfaceSize": 75,
+		"surfaceGravity": 8,
 		"hasMapMarker": true,
 		"ambientLight": 0.5
+		
 	},
 			"Orbit": {
 		"canShowOnTitle": false,
@@ -14,6 +15,7 @@
 		"primaryBody": "Bruised Brother",
 		"inclination": 11,
 		"isMoon": false,
+		"isTidallyLocked": true,
 		"siderealPeriod": 1.75
 	},
 	"Props": {
@@ -43,6 +45,12 @@
 				"type": "scroll",
 				"rename": "othercodeothercodeyseon",
 "position": {"x": 12.61656, "y": 1.551311, "z": -47.31169},
+"rotation": {"x": 330.962, "y": 112.4736, "z": 153.7585}
+			},
+			{
+				"xmlFile": "planets/xml/LightbulbsIncentive.xml",
+				"type": "recorder",
+"position": {"x": 28.21868, "y": -38.09122, "z": 12.38139},
 "rotation": {"x": 334.9727, "y": 255.6075, "z": 88.21321}
 			},
 						{
@@ -52,14 +60,14 @@
 			},
 			{
 				"xmlFile": "planets/xml/MoistCrater.xml",
-				"type": "scroll",
+				"type":"preCrashRecorder",
 				"rename": "moistymoisterson",
 "position": {"x": -49.69526, "y": -8.575027, "z": -6.348553},
 "rotation": {"x": 292.1777, "y": 177.7678, "z": 261.072}
 			},
 						{
 				"xmlFile": "planets/xml/Crater.xml",
-				"type": "scroll",
+				"type": "preCrashRecorder",
 				"rename": "crateycraterson",
 "position": {"x": -7.154451, "y": -20.59194, "z": -56.88366},
 "rotation": {"x": 346.739, "y": 98.13387, "z": 246.3186}

@@ -34,6 +34,13 @@
 		}
 	],
 	"Volumes": {
+		"notificationVolumes": 
+		[
+		{
+			"radius": 950,
+			"entryNotification": {"displayMessage": "WARNING SOLID SURFACE DETECTED"}
+		}
+		],
 		"audioVolumes": [
 			{
 				"loop": true,
@@ -70,6 +77,7 @@
     }
 },
 "Props": {
+	
 	"dialogue": [
 		{
 			"radius": 5,
@@ -148,6 +156,13 @@
 "position": {"x": -291.9107, "y": 203.7384, "z": 61.74735},
 "rotation": {"x": 33.05231, "y": 160.7187, "z": 174.817}
 			},
+			{
+				"xmlFile": "planets/xml/Back.xml",
+				"type": "preCrashRecorder",
+"position": {"x": 145.9763, "y": -190.586, "z": 201.2894},
+"rotation": {"x": 35.97088, "y": 288.9411, "z": 223.9082}
+			},
+			
 			  			{
 				"xmlFile": "planets/xml/NavigatingAHole.xml",
 				"type": "preCrashRecorder",

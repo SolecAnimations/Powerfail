@@ -1,15 +1,15 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>If you have gotten this far, you must understand the dangers of the SSPU.</Text>
+		<Text>BASIL: I recall seing a scroll in here, But now It's gone!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>this frequency is linked to one of the last keys of the puzzle you have unravelled.</Text>
+		<Text>:BASIL: Wait, I have an idea where the scroll might have gone.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>If you have a signal-scanning device, follow the trail.</Text>
+		<Text>BASIL: Turns out I was right! The scroll got launched into space by the geyser and found It's way to the lightbulb! </Text>
 	</TextBlock>
 	
 </NomaiObject>

@@ -1,30 +1,23 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>TULIP: Fern, the SSPU is ready for ignition.</Text>
+		<Text>FERN: In retrospect, we should have installed a better comunication device inside of the SSPU.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>FERN: Good, Tulip. Starting the generators now.</Text>
+		<Text>BASIL: Noted down.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>WARN; Low cave stability.</Text>
+		<Text>DAHILA: As discussed before. Basil will stay in the SSPU while we prapare the vessel's warp core for the first ever charge!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<Text>WARN; Cave stability decreasing.</Text>
+		<Text>TULIP: We can return to the vessel now. The SSPU and its protocols are ready to go!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<Text>BASIL: Wait-no-no-no-NO-</Text>
-	</TextBlock>
-
-	<ShipLogConditions>
-		<RevealFact>
-			<FactID>SSPU_Catastrophe</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-	</ShipLogConditions>
+		<Text>BASIL: Safe travels!</Text>
+    </TextBlock>
 	
 </NomaiObject>

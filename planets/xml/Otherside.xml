@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+		<ID>1</ID>
+		<Text>FERN: We should contact Basil and verify the status of the SSPU.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>2</ID>
+		<Text>TULIP: I'm unsure if the signal will travel through... But I assume it would not hurt.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>TULIP: Basil! Fern, Dahila, and me are heading towards the SSPU warp.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text> *Static* </Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text> *Static* </Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>DAHILA: The signal seams to be extreamly weak. Whatever it is that you want to tell us, Im sure we could discuss it inside.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<Text>FERN: Let's get moving. We don't want to end up like our discovery scroll..</Text>
+    </TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<Text>TULIP: We really need to add railings to our camp.</Text>
+    </TextBlock>
+</NomaiObject>

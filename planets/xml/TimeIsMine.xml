@@ -1,21 +1,29 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>BASIL: I ripped the warp core out of the Central Station.</Text>
+		<Text>TULIP: Fern, Dahila, and me are heading towards the SSPU warp.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>BASIL: Now, me, you may ask "Why did you tear the warp core out of your own vessel? You're trapped here now!"</Text>
+		<Text>BASIL: Do not enter! Im not sure what happend but one of the wires snapped!. The powerfail protocol didn't activate!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>BASIL: Foolish question! I inserted it INTO the SSPU! The sheer energy of the compacted star of Sunset Sister gives the warp core enough power for a noticable warp back in time. In other words, TIME BENDS BEFORE MY WILL!</Text>
+		<Text>BASIL: Visiting the SSPU right now will be most likely lethal! Stay where you are while I activate it manually</Text>
 	</TextBlock>
-
+	<TextBlock>
+		<ID>4</ID>
+		<Text>DAHILA: The signal seams to be extreamly weak. Whatever it is that you want to tell us, Im sure we could discuss it inside.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>BASIL: Wait! Go back! Do not enter! Do Not-</Text>
+    </TextBlock>
+	
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>SSPU_ATP</FactID>
-			<Condition>3</Condition>
+			<FactID>SSPU_Catastrophe</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 	

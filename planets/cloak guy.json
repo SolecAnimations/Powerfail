@@ -10,6 +10,26 @@
 		"hasFluidDetector": false
 },
 "Volumes": {
+	
+	"lightSourceVolumes": 
+	[
+     {
+		"position": {"x": -3.327461, "y": -0.01469141, "z": 31.95456},
+		 "radius": 2
+	 },
+	 {
+		"position": {"x": -0.1844773, "y": -31.57381, "z": -6.349207},
+		 "radius": 2
+	 },
+	 {
+		"position": {"x": 1.166279, "y": -13.25846, "z": 29.25063},
+		 "radius": 2
+	 },
+	 {
+		"position": {"x": 2.358424, "y": -0.4927049, "z": -32.02409},
+		 "radius": 2
+	 }
+	],
 	"revealVolumes": [
 		{
 			"radius": 15,
@@ -56,15 +76,21 @@
 			},
 						{
 				"type": "preCrashRecorder",
-"position": {"x": 3.224539, "y": -27.67524, "z": 16.00663},
-"rotation": {"x": 357.1386, "y": 284.3487, "z": 213.6716},
+"position": {"x": -0.1844773, "y": -31.57381, "z": -6.349207},
+"rotation": {"x": 10.38598, "y": 4.213869, "z": 175.2407},
+"xmlFile": "planets/xml/TimeIsMine.xml"
+			},
+			{
+				"type": "preCrashRecorder",
+"position": {"x": 1.166279, "y": -13.25846, "z": 29.25063},
+"rotation": {"x": 347.4148, "y": 281.6354, "z": 244.0645},
 "xmlFile": "planets/xml/aMomentLastingTrauma.xml"
 			},
-									{
-				"type": "preCrashRecorder",
-"position": {"x": -3.579988, "y": -27.60844, "z": -16.04499},
-"rotation": {"x": 26.71842, "y": 51.2561, "z": 201.4795},
-"xmlFile": "planets/xml/TimeIsMine.xml"
+			{
+             "type": "computer",
+			 "position": {"x": -0.01212621, "y": -29.96633, "z": 11.87239},
+			 "alignRadial": true,
+			 "xmlFile": "planets/xml/SSPU.xml"
 			},
 												{
 				"type": "preCrashRecorder",
@@ -76,8 +102,9 @@
 		"warpReceivers": [
 		{
 			"frequency": "SSPU-Maze",
-"position": {"x": 2.778948, "y": 8.871052, "z": 30.74113},
-"rotation": {"x": 2.327195, "y": 276.5846, "z": 289.7312}
+"position": {"x": 0.01152926, "y": 4.754655, "z": 31.83673},
+"rotation": {"x": 2.327195, "y": 276.5846, "z": 289.7312},
+"alignRadial": true
 		}
 	],
 				"details": [

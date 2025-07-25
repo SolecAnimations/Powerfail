@@ -1,15 +1,15 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>If you have gotten this far, you must understand the dangers of the SSPU.</Text>
+		<Text>SSPU STATUS -:- ACTIVE</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>this frequency is linked to one of the last keys of the puzzle you have unravelled.</Text>
+		<Text>HARDWARE STATUS : 98.89% </Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>If you have a signal-scanning device, follow the trail.</Text>
+		<Text> OVERWRITE DETECTED : ENTERING POWERFAIL MODE </Text>
 	</TextBlock>
 	
 </NomaiObject>

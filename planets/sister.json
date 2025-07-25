@@ -4,7 +4,7 @@
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 160,
-		"surfaceGravity": 14,
+		"surfaceGravity": 13,
 		"hasMapMarker": true,
 		"ambientLight": 0.5
 	},
@@ -25,10 +25,22 @@
 "rotation": {"x": 357.324, "y": 183.8212, "z": 126.5951}
 			},
 			{
+             "type": "computer",
+			 "xmlFile": "planets/xml/SolarPanel.xml",
+			 "position": {"x": -89.5732, "y": -68.68877, "z": -69.7923},
+			 "alignRadial": true
+			},
+			{
 				"type": "preCrashRecorder",
 "position": {"x": 130.0375, "y": -109.8542, "z": -8.355927},
 "rotation": {"x": -333.0529, "y": -163.9082, "z": -133.7753},
 "xmlFile": "planets/xml/OopsIDroppedIt.xml"
+			},
+			{
+				"type": "preCrashRecorder",
+"position": {"x": -90.62511, "y": -73.18746, "z": -63.63496},
+"rotation": {"x": 46.5411, "y": 97.16952, "z": 212.8924},
+"xmlFile": "planets/xml/Otherside.xml"
 			},
 			{
 				"type": "scroll",
@@ -44,7 +56,7 @@
 "xmlFile": "planets/xml/theInvisibleBehindMyEyes.xml"
 			},
 									{
-				"type": "scroll",
+				"type": "preCrashRecorder",
 "position": {"x": -54.72196, "y": 40.6234, "z": 195.4116},
 "rotation": {"x": 317.2371, "y": 86.53614, "z": 71.3083},
 "xmlFile": "planets/xml/LinkingToAProject.xml"
@@ -67,9 +79,16 @@
 				"scale": 78,
 				"keepLoaded": true
 			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+				"position": {"x": -81.8596, "y": -56.445, "z": -59.971},
+				"rotation": {"x": 330.6183, "y": 148.5825, "z": 247.5695},
+				"rename": "SolarPanel",
+				"keepLoaded": true
+			},
 												    {
       "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
-"position": {"x": 129.121, "y": -110.1535, "z": -13.60687},
+"position": {"x": 129.121, "y": -110.1535, "z": -48.9237},
 "rotation": {"x": 308.5271, "y": 87.10574, "z": 188.07},
 "keepLoaded": true
     }
@@ -126,6 +145,14 @@
 				"audio": "planets/music/Sunset Sister.mp3",
 				"radius": 260,
 				"volume": 1
+			}
+		],
+		"oxygenVolumes":
+		[
+			{
+				"radius": 10,
+				"position": {"x": 129.121, "y": -110.1535, "z": -13.60687},
+				"treeVolume": false
 			}
 		]
 	},

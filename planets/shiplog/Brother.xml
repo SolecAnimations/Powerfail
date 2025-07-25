@@ -21,7 +21,7 @@
 		
 		<ExploreFact>
 			<ID>Nomai_activity</ID>
-			<Text>A Nomai computer detected unusual Nomai activity inside a miniature system called the Stellar Siblings.</Text>
+			<Text>A Nomai computer detected unusual Nomai activity from a miniature system labelled the "Stellar Sibilings".</Text>
 		</ExploreFact>
 	</Entry>
 
@@ -36,17 +36,17 @@
 			<ID>Rumor_SSPU</ID>
 			<SourceID>Nomai_computer</SourceID>
 			<RumorName>SSPU</RumorName>
-			<Text>The system scanner reported the "SSPU" was operational.</Text>
+			<Text>The system scanner reported the "SSPU" is in powerfail mode.</Text>
 		</RumorFact>
 		
 		<ExploreFact>
 			<ID>SSPU_Catastrophe</ID>
-			<Text>A cave collapse killed Dahlia, Tulip, and Fern.</Text>
+			<Text>A damaged wire killed Dahlia, Tulip, and Fern.</Text>
 		</ExploreFact>
 
 		<ExploreFact>
 			<ID>SSPU_ATP</ID>
-			<Text>Basil ripped out the warp core from the Central Station and inserted it into the SSPU, essentially making another Ash Twin Project.</Text>
+			<Text>Basil ripped out the warp core from the Central Station and inserted it into the SSPU's powerfail unit, essentially making another Ash Twin Project.</Text>
 		</ExploreFact>
 
 		<ExploreFact>

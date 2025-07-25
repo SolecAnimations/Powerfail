@@ -16,7 +16,7 @@
 	<TextBlock>
 		<ParentID>2</ParentID>
 		<ID>4</ID>
-		<Text>FERN: The stone making up this asteroid and its peers is highly unstable. I doubt long-term stability would be an option with this.</Text>
+		<Text>FERN: The stone making up this asteroid and its peers is highly unstable. I doubt long-term stability for the hardware would be an option with this.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ParentID>1</ParentID>
@@ -26,6 +26,6 @@
 	<TextBlock>
 		<ParentID>5</ParentID>
 		<ID>6</ID>
-		<Text>BASIL: No, No, and No. If we do, it's nearly certain the diverse ecosystem(s) of Familliar Refuse would collapse. It may be durable, but it sure is horrible.</Text>
+		<Text>BASIL: No, No, and No. If we do, it's nearly certain the diverse ecosystem(s) of Familliar Refuse would collapse. It may be durable, but it sure is.. horrible.</Text>
 	</TextBlock>
 </NomaiObject>
