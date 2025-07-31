@@ -115,7 +115,7 @@
 				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4",
 "position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161},
 "rotation": {"x": 359.6807, "y": 182.0245, "z": 8.958498},
-"scale": 1
+"scale": 0.4
 			},
 						{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
