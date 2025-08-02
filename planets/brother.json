@@ -191,21 +191,12 @@
 			}
     ],
 	"signals": [
-		{
-			"audio": "NomaiEscapePodDistressSignal_LP",
-			"detectionRadius": 85,
-			"identificationRadius": 5,
-			"name": "Third Broadcaster",
-			"frequency": "Secondary Broadcast",
-"position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
-			
-		},
 				{
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 15,
 			"identificationRadius": 5,
 			"name": "Cloud Broadcaster",
-			"frequency": "Secondary Broadcast",
+			"frequency": "Signal Broadcasters",
 "position": {"x": 603.8593, "y": 265.4477, "z": -28.38388}
 			
 		},
@@ -223,7 +214,7 @@
 			"detectionRadius": 55,
 			"identificationRadius": 5,
 			"name": "Spike Broadcaster",
-			"frequency": "Signal Broadcasters",
+			"frequency": "Hidden Broadcast",
 "position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
 			
 		}
