@@ -11,6 +11,10 @@
 		<ID>3</ID>
 		<Text>Exploration requested.</Text>
 	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text><![CDATA[<color=red>ERROR:</color>]]> Unexpected jellyfish detected.</Text>
+	</TextBlock>
 
 	<ShipLogConditions>
 		<RevealFact>
@@ -20,7 +24,7 @@
 	
 		<RevealFact>
 			<FactID>Rumor_SSPU</FactID>
-			<Condition>1</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 	
