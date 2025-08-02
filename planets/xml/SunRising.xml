@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>BASIL: The sunrise is beautiful, dont'chya think?</Text>
+		<Text>BASIL: The sunrise is beautiful, don't you think?</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>2</ID>
@@ -21,7 +21,7 @@
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>3</ParentID>
-		<Text>BASIL: As I was looking upon it, I saw it shrink, and collapse, via planetary nebula. All that was left was a white repulsing dwarf at the center of the moon.</Text>
+		<Text>BASIL: As I was looking upon it, I saw it shrink, and collapse. All that was left was a white repulsing dwarf at the center of the moon.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>

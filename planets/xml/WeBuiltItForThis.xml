@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>BASIL: The Powerfail protocol was a pice of hardware that could absorb the power of the whole SSPU in case of an emergency.</Text>
+		<Text>BASIL: The Powerfail protocol was a peice of hardware that could absorb the power of the whole SSPU in case of an emergency.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -9,7 +9,7 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>BASIL: I succeded but...</Text>
+		<Text>BASIL: I succeeded but...</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
