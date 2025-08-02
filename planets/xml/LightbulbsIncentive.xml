@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>BASIL: I recall seing a scroll in here, But now It's gone!</Text>
+		<Text>BASIL: I recall seeing a scroll in here, But now It's gone!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -9,7 +9,7 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>BASIL: Turns out I was right! The scroll got launched into space by the geyser and found It's way to the lightbulb! </Text>
+		<Text>BASIL: Turns out I was right! The scroll got launched into space by the geyser and found its way to the lightbulb! </Text>
 	</TextBlock>
 	
 </NomaiObject>

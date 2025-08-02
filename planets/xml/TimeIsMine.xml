@@ -1,19 +1,19 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>TULIP: Fern, Dahila, and me are heading towards the SSPU warp.</Text>
+		<Text>TULIP: Fern, Dahlia, and me are heading towards the SSPU warp.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>BASIL: Do not enter! Im not sure what happend but one of the wires snapped!. The powerfail protocol didn't activate!</Text>
+		<Text>BASIL: Do not enter! I'm not sure what happened but one of the wires snapped!. The powerfail protocol didn't activate!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<Text>BASIL: Visiting the SSPU right now will be most likely lethal! Stay where you are while I activate it manually</Text>
+		<Text>BASIL: Visiting the SSPU right now will be most likely lethal! Stay where you are while I activate it manually!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<Text>DAHILA: The signal seams to be extreamly weak. Whatever it is that you want to tell us, Im sure we could discuss it inside.</Text>
+		<Text>DAHILA: The signal seems to be extremely weak. Whatever it is that you want to tell us, Im sure we could discuss it inside.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>

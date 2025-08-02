@@ -5,7 +5,7 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<Text>this frequency is linked to one of the last keys of the puzzle you have unravelled.</Text>
+		<Text>this frequency is linked to the last keys of the puzzle you have unravelled.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>

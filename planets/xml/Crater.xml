@@ -1,6 +1,6 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>TULIP: There is nothing intresting inside of this crater. I suppose I will return to the equatorial camp.</Text>		
+		<Text>TULIP: There is nothing intresting inside of this crater. I suppose I will return to the camp.</Text>		
 	</TextBlock>
 </NomaiObject>

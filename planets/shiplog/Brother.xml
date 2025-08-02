@@ -21,7 +21,7 @@
 		
 		<ExploreFact>
 			<ID>Nomai_activity</ID>
-			<Text>A Nomai computer detected unusual Nomai activity from a miniature system labelled the "Stellar Sibilings".</Text>
+			<Text>A Nomai computer detected unusual Nomai activity from a <![CDATA[<color=orange>miniature</color>]]> system labelled the "Stellar Siblings".</Text>
 		</ExploreFact>
 	</Entry>
 

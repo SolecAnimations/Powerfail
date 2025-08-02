@@ -195,8 +195,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 85,
 			"identificationRadius": 5,
-			"name": "Third Brodcaster",
-			"frequency": "Secondary Brodcast",
+			"name": "Third Broadcaster",
+			"frequency": "Secondary Broadcast",
 "position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
 			
 		},
@@ -204,8 +204,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 15,
 			"identificationRadius": 5,
-			"name": "Cloud Brodcaster",
-			"frequency": "Secondary Brodcast",
+			"name": "Cloud Broadcaster",
+			"frequency": "Secondary Broadcast",
 "position": {"x": 603.8593, "y": 265.4477, "z": -28.38388}
 			
 		},
@@ -213,8 +213,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 55,
 			"identificationRadius": 5,
-			"name": "First Brodcaster",
-			"frequency": "Signal Brodcasters",
+			"name": "First Broadcaster",
+			"frequency": "Signal Broadcasters",
 "position": {"x": -0.8822226, "y": -317.6028, "z": 18.97661}
 			
 		},
@@ -222,8 +222,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 55,
 			"identificationRadius": 5,
-			"name": "Spike Brodcaster",
-			"frequency": "Signal Brodcasters",
+			"name": "Spike Broadcaster",
+			"frequency": "Signal Broadcasters",
 "position": {"x": -292.1644, "y": 201.5718, "z": 63.1996}
 			
 		}

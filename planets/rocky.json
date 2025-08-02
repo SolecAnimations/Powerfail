@@ -65,8 +65,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 25,
 			"identificationRadius": 5,
-			"name": "Second Brodcaster",
-			"frequency": "Signal Brodcasters",
+			"name": "Second Broadcaster",
+			"frequency": "Signal Broadcasters",
 "position": {"x": -22.54999, "y": -0.102066, "z": -7.014376}
 			
 			},
@@ -74,7 +74,7 @@
 			"audio": "planets/music/morse.wav",
 			"detectionRadius": 25,
 			"identificationRadius": 5,
-			"name": "Asteroid Brodcaster",
+			"name": "Asteroid Broadcaster",
 			"frequency": "Morse",
 "position": {"x": -23.08217, "y": -1.500015, "z": -4.763678}
 			

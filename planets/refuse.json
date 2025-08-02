@@ -99,8 +99,8 @@
 			"audio": "NomaiEscapePodDistressSignal_LP",
 			"detectionRadius": 8,
 			"identificationRadius": 5,
-			"name": "Refuse Brodcaster",
-			"frequency": "Secondary Brodcast",
+			"name": "Refuse Broadcaster",
+			"frequency": "Secondary Broadcast",
 "position": {"x": 15.15451, "y": 2.441422, "z": -46.52854}
 			
 		}
