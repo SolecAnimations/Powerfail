@@ -88,7 +88,7 @@
 
 		<ExploreFact>
 			<ID>Cloud_Code</ID>
-			<Text>I found a code in the clouds of Bruised Brother descripting <![CDATA[<color=red>b=4, e=2, h=1 ,i=+ ,n=5 ,d=0 ,t=- ,S=7 ,o=6 ,u=9 ,r=8 ,c=! ,a=@</color>]]></Text>
+			<Text>I found a code in the clouds of Bruised Brother descripting <![CDATA[<color=red>b=4, e=2, h=1, i=+, n=5, d=0, t=-, S=7, o=6, u=9, r=8, c=!, a=@, '=_, x=3</color>]]></Text>
 		</ExploreFact>
 	</Entry>
 	
