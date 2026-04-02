@@ -49,9 +49,17 @@ namespace PowerFail
             if (newScene != "Jam5") return;
 
             warpPad = SearchUtilities.Find("WildsRefuge_Body/Sector/AsteroidWarp");
-            var warpHandler = warpPad?.AddComponent(typeof(WarpHandler));
+            var warpHandlerA = warpPad?.AddComponent<WarpHandler>();
+            warpHandlerA.Init(SearchUtilities.Find("WildsRefuge_Body/Sector/AsteroidWarp").GetComponent<NomaiWarpTransmitter>(), "ShareStone_Asteroid");
+            var warpHandlerB = warpPad?.AddComponent<WarpHandler>();
+            warpHandlerB.Init(SearchUtilities.Find("WildsRefuge_Body/Sector/BrotherWarp").GetComponent<NomaiWarpTransmitter>(), "ShareStone_Brother");
+            var warpHandlerM = warpPad?.AddComponent<WarpHandler>();
+            warpHandlerM.Init(SearchUtilities.Find("WildsRefuge_Body/Sector/MazeWarp").GetComponent<NomaiWarpTransmitter>(), "ShareStone_Maze");
+        }
 
-            ModHelper.Console.WriteLine($"warpPad status: {warpPad == null} ; warpHandler status: {warpHandler == null}", MessageType.Success);
+        public static void WriteLine(string text, MessageType messageType = MessageType.Message)
+        {
+            Instance.ModHelper.Console.WriteLine(text, messageType);
         }
     }
 }

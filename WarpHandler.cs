@@ -1,30 +1,40 @@
-﻿using System;
-using NewHorizons.Components;
-using NewHorizons.Utility;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace PowerFail;
 
 public class WarpHandler : MonoBehaviour
 {
-	public NomaiWarpTransmitterCooldown warpTransmitterCooldown;
+	private NomaiWarpTransmitter transmitter;
+    private string itemName;
+
+    public void Init(NomaiWarpTransmitter transmitter, string itemName)
+    {
+        this.itemName = itemName;
+        this.transmitter = transmitter;
+    }
 
     public void Start() 
 	{
-
-        warpTransmitterCooldown.enabled = false;
-        warpTransmitterCooldown = SearchUtilities.Find("WildsRefuge_Body/Sector/AsteroidWarp").GetComponent<NomaiWarpTransmitterCooldown>();
+        transmitter._alignmentWindow = 0;
 	}
 
 	public void Update()
 	{
-		if (Locator.GetToolModeSwapper().GetItemCarryTool().GetHeldItem().name == "Asteroid")
+		if (Locator.GetToolModeSwapper().GetItemCarryTool().GetHeldItem() != null)
 		{
-			warpTransmitterCooldown.enabled = true;
-		}
-		else
-		{
-			warpTransmitterCooldown.enabled = false;
+            if (Locator.GetToolModeSwapper().GetItemCarryTool().GetHeldItem().name == itemName)
+            {
+                transmitter._alignmentWindow = 360;
+            }
+            else
+            {
+                transmitter._alignmentWindow = 0;
+                transmitter.CloseBlackHole();
+            }
+        } else
+        {
+            transmitter._alignmentWindow = 0;
+            transmitter.CloseBlackHole();
         }
 	}
 }

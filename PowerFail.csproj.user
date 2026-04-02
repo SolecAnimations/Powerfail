@@ -1,5 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/T3rtu.PowerFail</OutputPath>
+    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/TeamGeswaldo.Jam5</OutputPath>
   </PropertyGroup>
 </Project>

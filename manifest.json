@@ -1,9 +1,9 @@
 {
   "uniqueName": "TeamGeswaldo.Jam5",
-  "name": "Powerfail",
+  "name": "PowerFail",
   "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, Vodblink, and Callie)",
   "version": "9.0",
-  "filename": "StellarSibilings.dll",
+  "filename": "PowerFail.dll",
   "owmlVersion": "2.15.1",
   "dependencies": [
     "xen.NewHorizons",
