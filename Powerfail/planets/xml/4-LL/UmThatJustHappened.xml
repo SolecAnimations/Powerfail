@@ -1,0 +1,30 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BASIL: I set up a little camp here to take my mind off of...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>BASIL: <![CDATA[<i>]]>That<![CDATA[</i>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>BASIL: I might set some scrolls in particular places? This is more of a personal reminder than anything.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>BASIL: ...Like anything isn't at this point.</Text>
+	</TextBlock>
+		<TextBlock>
+			<ID>5</ID>
+			<Text>BASIL: The tallest pillar on Sunset Sister. The south pole of Sunset Sister. In a tree in the Lively Crater on Familiar Refuse.</Text>
+		</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>That_Just_Happened</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

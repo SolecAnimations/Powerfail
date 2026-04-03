@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DAHLIA: Here, the main shell of the SSPU is completed.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>FERN: Great, Dahlia. I'll begin wiring.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>FERN: And there we go. The wires here are connected to the surface, where they gain power from the star.</Text>
+	</TextBlock>
+	
+</NomaiObject>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Alder</NameField>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I hate my life. The only reason why I'm still alive is because Cedar has been forcing me to live and live until I eventually pass on to "live with the light". What light? WHAT LIGHT? THAT LIGHT UP THERE IS JUST ANOTHER BALL ORBITING AROUND OUR SKIES LIKE THE SKIES AROUND THE SUN! THERE IS NO LIGHT! IT HAS NO RELIGIOUS VALUE, JUST A DANGEROUS ORANGE ROCK OF PURE LAVA, DEATH, AND SADNESS! EVENTUALLY ONE DAY IT WILL CRASH INTO OUR MOON OBLITERATING US ALL BECAUSE CEDAR DIDN'T THINK TO CHECK THE DAMN SKY FOR CLUES ONTO HOW THE UNIVERSE WORKS! ...Anyways, How are you today?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I think I'm going to go now.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+</DialogueTree>

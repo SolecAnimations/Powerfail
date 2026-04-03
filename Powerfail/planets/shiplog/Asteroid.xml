@@ -1,0 +1,40 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>POWERFAIL_ASTEROID_DESC</ID>
+
+	<Entry>
+		<ID>PIC1</ID>
+		<Name>Uploaded Picture</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>BASPIC1</ID>
+			<Text>A photo was uploaded to my ship log when nearing the asteroid.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>PIC2</ID>
+		<Name>Uploaded Picture</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>BASPIC2</ID>
+			<Text>A photo was uploaded to my ship log when nearing the asteroid.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>PIC3</ID>
+		<Name>Uploaded Picture</Name>
+
+		<Curiosity>SSPU</Curiosity>
+
+		<ExploreFact>
+			<ID>BASPIC3</ID>
+			<Text>A photo was uploaded to my ship log when nearing the asteroid.</Text>
+		</ExploreFact>
+	</Entry>
+	
+</AstroObjectEntry>

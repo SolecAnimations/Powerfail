@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 249339021
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe43216177f7aa09727e8a5fdecac6b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shitty moddles/Maze.prefab
+- Assets/Shitty moddles/Ligntbulb.prefab
+- Assets/Shitty moddles/Refuse.prefab
+- Assets/Shitty moddles/Brother.prefab
+Dependencies: []

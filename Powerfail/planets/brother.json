@@ -1,0 +1,173 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bruised Brother",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 24,
+		"hasMapMarker": true,
+		"ambientLight": 0.5,
+		"hasFluidDetector": false,
+		 "centerOfSolarSystem": true
+	},
+	"Rings": [
+		{
+			"texture": "planets/assets/BB_r.png",
+			"innerRadius": 2000,
+			"outerRadius": 2500,
+			"fluidType": "sand"
+		}
+	],
+	"AmbientLights": [
+		{
+			"innerRadius": 639,
+			"outerRadius": 800,
+			"isShell": true,
+			"intensity": 3
+		},
+		{
+			"innerRadius": 200,
+			"outerRadius": 639,
+			"intensity": 1
+		}
+	],
+	"Volumes": {
+		"notificationVolumes": 
+		[
+		{
+			"radius": 950,
+			"entryNotification": {"displayMessage": "WARNING SOLID SURFACE DETECTED"}
+		}
+		],
+		"audioVolumes": [
+			{
+				"loop": true,
+				"track": "music",
+				"audio": "planets/music/Bruised Brother.mp3",
+				"radius": 530,
+				"volume": 1
+			}
+		],
+		"revealVolumes": [
+			{
+				"radius": 2500,
+				"reveals": [
+					"BROTHER_DISCOVERY",
+					"REFUSE_DISCOVERY",
+					"SISTER_DISCOVERY",
+					"LIGHTBULB_DISCOVERY"
+				]
+			},
+			{
+				"radius": 30,
+				"reveals": [ "SSPU_Enterance" ],
+				"revealFor": "both",
+				"position": {"x": 148.708, "y": -193.5996, "z": 195.9802}
+				
+			}
+		]
+	},
+  "Orbit": {
+    "staticPosition": {
+      "x": 8000,
+      "y": 2000,
+      "z": 7000
+    },
+	"axialTilt": -30
+},
+"Props": {
+	
+	"dialogue": [
+		{
+			"radius": 5,
+			"xmlFile": "planets/xml/secret.xml",
+			"position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161}
+		}
+	],
+	"warpTransmitters": [
+		{
+			"alignmentWindow": 360,
+			"frequency": "Brother-Maze",
+			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
+"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
+		}
+	],
+				"warpReceivers": [
+		{
+			"frequency": "Refuge-Brother",
+"position": {"x": -48.67031, "y": -326.6084, "z": 12.36176},
+"rotation": {"x": 1.262774, "y": 196.5853, "z": 187.7444}
+		}
+	],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/BB.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 1,
+				"keepLoaded": true
+			},
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/ProjectionCamp Detail.prefab",
+"position": {"x": -15.1529, "y": -327.3603, "z": -14.1698},
+"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
+				"scale": 1
+			},
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Projection Camp Detail.prefab",
+"position": {"x": -15.15285, "y": -327.6483, "z": -12.90074},
+"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
+				"scale": 1,
+				"keepLoaded": true
+			}
+		]
+	},
+	"Atmosphere": {
+		"size": 750,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+				"r": 149,
+				"g": 66,
+				"b": 245,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/BB_cc.png",
+			"outerCloudRadius": 749,
+			"innerCloudRadius": 639,
+			"tint": {
+				"r": 149,
+				"g": 66,
+				"b": 245,
+				"a": 255
+			}
+		}
+	},
+	"Sand": {
+		"size": 110,
+		"curve": [
+			{
+			"time": 9,
+			"value": 0.7
+			},
+						{
+			"time": 22,
+			"value": 7
+			}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Brother.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/BB.png",
+			"scale": 2
+		}
+	}
+}

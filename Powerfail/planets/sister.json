@@ -1,0 +1,253 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sunset Sister",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 160,
+		"surfaceGravity": 13,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"removeChildren": [
+        "Sector/Star/Audio_Star/SurfaceAudio_Sun"
+	],
+			"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 1244,
+		"primaryBody": "Bruised Brother",
+		"isTidallyLocked": true,
+		"inclination": 11,
+		"isMoon": true,
+		"siderealPeriod": 1.75
+	},
+	"Props": {
+		"signals": [
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_1a",
+"position": {"x": 123.4261, "y": -87.38449, "z": 156.999},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_2a",
+"position": {"x": 159.1509, "y": -67.12468, "z": 132.3584},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_3a",
+"position": {"x": 114.5737, "y": -45.57485, "z": 178.5505},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_1b",
+"position": {"x": 0, "y": 0, "z": 0},
+"detectionRadius": 300,
+"sourceRadius": 3,
+"identificationRadius": 300
+			}
+		],
+		"remotes": [
+			{
+				"id": "SunsetSister",
+				"decalPath": "planets/assets/SunsetSister.png",
+				"platform": {
+"position": {"x": -0.3344078, "y": 213.6618, "z": -0.5418487},
+"rotation": {"x": 4.145881, "y": 210.601, "z": 356.2668}
+				}
+			}
+		],
+		"translatorText": [
+			{
+             "type": "preCrashComputer",
+			 "xmlFile": "planets/xml/2-SS/SolarPanel1.xml",
+"position": {"x": 82.16949, "y": -91.96188, "z": 123.0271},
+"rotation": {"x": 341.4711, "y": 318.7744, "z": 242.1948}
+			},
+			{
+             "type": "preCrashComputer",
+			 "xmlFile": "planets/xml/2-SS/SolarPanel2.xml",
+"position": {"x": 104.681, "y": -91.69969, "z": 104.7435},
+"rotation": {"x": 311.2842, "y": 349.8777, "z": 224.4045}
+			},
+			{
+				"type": "preCrashRecorder",
+"position": {"x": 109.9284, "y": -50.60003, "z": 125.6438},
+"rotation": {"x": 52.10849, "y": 292.6609, "z": 246.9228},
+"xmlFile": "planets/xml/2-SS/OhForRadon'sSake.xml"
+			},
+			{
+				"type": "preCrashRecorder",
+"position": {"x": -90.62511, "y": -73.18746, "z": -63.63496},
+"rotation": {"x": 46.5411, "y": 97.16952, "z": 212.8924},
+"xmlFile": "planets/xml/Otherside.xml"
+			},
+			{
+				"type": "scroll",
+"position": {"x": 58.36527, "y": -51.25509, "z": 6.34754},
+"rotation": {"x": 10.05566, "y": 345.025, "z": 228.6843},
+"xmlFile": "planets/xml/Discovery.xml",
+"seed": 4218
+			},
+						{
+				"type": "scroll",
+"position": {"x": -0.0005750656, "y": 210.5257, "z": -0.000541687},
+"rotation": {"x": 1.586581, "y": 326.1889, "z": 5.346976},
+"xmlFile": "planets/xml/theInvisibleBehindMyEyes.xml"
+			},
+									{
+				"type": "preCrashRecorder",
+"position": {"x": -54.72196, "y": 40.6234, "z": 195.4116},
+"rotation": {"x": 317.2371, "y": 86.53614, "z": 71.3083},
+"xmlFile": "planets/xml/LinkingToAProject.xml"
+			}
+		],
+		"details": [
+      {
+        "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+        "parentPath": "Sector/SScamp",
+        "isRelativeToParent": true
+      },
+			{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/SunsetSister.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 180,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 1.5,
+				"keepLoaded": true
+			},
+						{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Antena rig detail.prefab",
+"position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
+"rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
+				"scale": 1
+			},
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Antena rig.prefab",
+"position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
+"rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
+				"scale": 1,
+				"keepLoaded": true
+			}
+		],
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"horizonRadius": 61,
+				"distortRadius": 62
+			}
+		]
+	},
+	"Star": {
+		"stellarDeathType": "planetaryNebula",
+		"lifespan": 23,
+		"lightRadius": 2800,
+		"size": 85,
+		"solarLuminosity": 1.4,
+		"endTint": {
+      "r": 255,
+      "g": 156,
+      "b": 0
+		},
+	 "lightTint": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "tint": {
+      "r": 255,
+      "g": 250,
+      "b": 0
+    },
+	"curve": [
+		{
+			"time": 0,
+			"value": 1
+		},
+		{
+			"time": 18,
+			"value": 1.6
+		},
+				{
+			"time": 18.5,
+			"value": 0
+		}
+	]
+  },
+  		"Volumes": {
+		"oxygenVolumes":
+		[
+			{
+				"radius": 60,
+				"position": {"x": 93.6964, "y": -85.78117, "z": 118.5251},
+				"treeVolume": true
+			}
+		],
+		"audioVolumes": [
+			{
+				"loop": true,
+				"track": "music",
+				"audio": "planets/music/Sunset Sister.wav",
+				"radius": 260,
+				"volume": 1
+			}
+		]
+	},
+  "Funnel": {
+	"target": "Bruised Brother",
+	"type": "star",
+	"tint": {
+      "r": 255,
+      "g": 106,
+      "b": 0
+	},
+		"curve": [
+		{
+			"time": 9,
+			"value": 0
+		},
+		{
+			"time": 9.5,
+			"value": 1
+		},
+				{
+			"time": 17,
+			"value": 1
+		},
+				{
+			"time": 17.5,
+			"value": 0
+		}
+	]
+  },
+  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Sister.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/SS.png",
+			"scale": 1.2
+		}
+	}
+}

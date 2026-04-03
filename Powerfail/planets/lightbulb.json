@@ -1,0 +1,133 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Lofted Lightbulb",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 30,
+		"surfaceGravity": 5,
+		"hasMapMarker": true
+	},
+		"removeChildren": [
+        "Sector/Star/Audio_Star/SurfaceAudio_Sun"
+	],
+"Star": {
+	"size": 1,
+	"lightRadius": 300,
+	"lifespan": 23,
+	"lightTint": {
+		"r": 255,
+		"g": 240,
+		"b": 255,
+		"a": 255
+	}
+},
+			"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 200,
+		"primaryBody": "Companion Conglomerate",
+		"isTidallyLocked": true,
+		"inclination": 84,
+		"isMoon": true,
+		"dottedOrbitLine": true,
+		"siderealPeriod": 0.1
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"treeVolume": true,
+"position": {"x": -28.21856, "y": 3.783183, "z": 4.170747},
+				"radius": 17
+			}
+		]
+	},
+	"Props": {
+		"translatorText": [
+							{
+				"xmlFile": "planets/xml/4-LL/ReachingToTheCore.xml",
+				"type": "scroll",
+				"rename": "nubScroll",
+"position": {"x": -28.97009, "y": 5.381241, "z": 0.01346239},
+"rotation": {"x": 79.33403, "y": 252.2765, "z": 343.9168}
+			},
+										{
+				"xmlFile": "planets/xml/4-LL/UmThatJustHappened.xml",
+				"type": "preCrashRecorder",
+				"rename": "nubRecorder",
+"position": {"x": -28.26348, "y": 6.399929, "z": 5.251358},
+"rotation": {"x": 49.31627, "y": 204.2366, "z": 289.6599}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Lightbulb_OWLK.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 23,
+					"y": 5,
+					"z": 82
+				},
+				"scale": 1,
+				"keepLoaded": true
+			},
+					{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteCookingStand",
+"position": {"x": -28.17739, "y": 3.176962, "z": 4.853647},
+"rotation": {"x": 4.758208, "y": 189.5601, "z": 275.8616},
+"scale": 1,
+				"removeChildren": [
+					"Props_HEA_Carabiner",
+					"Props_HEA_SardineSkeleton2",
+					"Props_HEA_CookingStand",
+					"Props_HEA_SardineCanOpened",
+					"Props_HEA_SardineSkeleton1",
+					"Props_HEA_SardineCanClosed",
+					"Props_HEA_SmallCookingPot",
+					"Props_HEA_Teapot",
+					"Props_HEA_SmallCookingPotTop",
+					"Props_HEA_Spork",
+					"Props_HEA_TeapotTop",
+					"Props_HEA_Wrench"
+				],
+"item": {
+	"name": "Pot Of Chaos",
+	"itemType": "Decoration"
+				}
+			},
+								    {
+      "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
+"position": {"x": -28.56334, "y": 2.058054, "z": 2.970856},
+"rotation": {"x": 1.750229, "y": 186.8129, "z": 276.4366}
+    },
+							    {
+      "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+"position": {"x": -27.95148, "y": 6.168068, "z": 3.178832},
+"rotation": {"x": 64.25726, "y": 210.5197, "z": 297.9543}
+    },
+					    {
+      "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+"position": {"x": -27.95148, "y": 6.168068, "z": 3.178832},
+"rotation": {"x": 64.25726, "y": 210.5197, "z": 297.9543},
+"keepLoaded": true
+    },
+							    {
+      "path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+"position": {"x": -28.21856, "y": 3.783183, "z": 4.170747},
+"rotation": {"x": 72.59614, "y": 344.6151, "z": 63.64727},
+"keepLoaded": true
+    }
+		]
+	},
+	  		"ShipLog" : {
+		"spriteFolder": "planets/shiplog",
+		"xmlFile": "planets/shiplog/Lightbulb.xml",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/RL.png",
+			"scale": 0.6
+		}
+	}
+}

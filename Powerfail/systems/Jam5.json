@@ -1,0 +1,148 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+  "entryPositions": [
+        {
+      "id": "Nomai_computer",
+      "position": {
+        "x": 0,
+        "y": -350
+      }
+    },
+            {
+      "id": "Sunset_Sister_Power_Unit",
+      "position": {
+        "x": 0,
+        "y": -650
+      }
+    },
+                {
+      "id": "SSPU_Encrypted",
+      "position": {
+        "x": -100,
+        "y": -800
+      }
+    },
+                    {
+      "id": "Scroll_spots",
+      "position": {
+        "x": 0,
+        "y": 400
+      }
+    },
+                    {
+      "id": "Ping_And_Obsi",
+      "position": {
+        "x": 200,
+        "y": 600
+      }
+    },
+                    {
+      "id": "Safeguards",
+      "position": {
+        "x": -200,
+        "y": 600
+      }
+    },
+                        {
+      "id": "Planetary_Nebula",
+      "position": {
+        "x": -400,
+        "y": 400
+      }
+    },
+                            {
+      "id": "Cracking_Open",
+      "position": {
+        "x": 400,
+        "y": 400
+      }
+    },
+       {
+      "id": "Discovery",
+      "position": {
+        "x": -500,
+        "y": 0
+      }
+    },
+           {
+      "id": "PIC1",
+      "position": {
+        "x": -300,
+        "y": -650
+      }
+    },
+           {
+      "id": "PIC2",
+      "position": {
+        "x": 0,
+        "y": -1050
+      }
+    },
+           {
+      "id": "PIC3",
+      "position": {
+        "x": 300,
+        "y": -650
+      }
+    },
+                                {
+      "id": "Morse_Refuse",
+      "position": {
+        "x": 500,
+        "y": 0
+      }
+    },
+                                    {
+      "id": "SPACKLE",
+      "position": {
+        "x": 0,
+        "y": 700
+      }
+    },
+    {
+      "id": "BROTHER",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+        {
+      "id": "SISTER",
+      "position": {
+        "x": -200,
+        "y": 0
+      }
+    },
+        {
+      "id": "REFUSE",
+      "position": {
+        "x": 200,
+        "y": 0
+      }
+    },
+            {
+      "id": "LIGHTBULB",
+      "position": {
+        "x": 0,
+        "y": 200
+      }
+    }
+  ],
+  "curiosities": [
+      {
+        "id": "SSPU",
+        "color": {
+          "r": 168,
+          "g": 52,
+          "b": 235,
+          "a": 255
+        },
+        "highlightColor": {
+          "r": 212,
+          "g": 138,
+          "b": 255,
+          "a": 255
+      }
+    }
+  ]
+}

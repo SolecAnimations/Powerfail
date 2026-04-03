@@ -1,0 +1,15 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SSPU STATUS -:- ACTIVE</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>HARDWARE STATUS : 98.889% </Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text> OVERWRITE DETECTED : ENTERING POWERFAIL MODE </Text>
+	</TextBlock>
+	
+</NomaiObject>

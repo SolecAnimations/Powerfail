@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "fuckshit outer",
+	"starSystem": "Jam5",
+	"Base": {
+		"surfaceSize": 25,
+
+		"surfaceGravity": 0,
+
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"canShowOnTitle": false,
+		"semiMajorAxis": 2472,
+		"primaryBody": "Bruised Brother",
+		"isTidallyLocked": false,
+		"inclination": 30,
+		"trueAnomaly": 0,
+		"showOrbitLine": false,
+		"isMoon": true
+	},
+    "MapMarker": {
+        "enabled": false
+    },
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Asteroid3.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 80,
+					"y": 20,
+					"z": 180
+				},
+				"scale": 0.6,
+				"keepLoaded": true
+			}
+        ]
+						
+    }
+}

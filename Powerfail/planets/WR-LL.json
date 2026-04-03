@@ -1,0 +1,29 @@
+{
+	"name" : "Companion Conglomerate",
+    "starSystem": "Jam5",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"Base" :
+	{
+		"hasMapMarker" : false
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis": 1922,
+		"primaryBody": "Bruised Brother",
+		"inclination": 11,
+		"isMoon" : true,
+		"argumentOfPeriapsis": 102,
+		"trueAnomaly" : 270,
+		"axialTilt" : 0,
+		"isTidallyLocked": false,
+		"showOrbitLine": true
+	},
+	"FocalPoint" :
+	{
+		"primary" : "Wilds' Refuge",
+		"secondary" : "Lofted Lightbulb"
+	}
+}

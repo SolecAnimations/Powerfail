@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Elm</NameField>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Cedar, don't tell him about me--he'll kill both of us if he finds out I'm here.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...Okay, good day to you.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+</DialogueTree>

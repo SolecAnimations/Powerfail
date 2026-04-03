@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Geswaldo_Powerfail_Platform",
+  "starSystem": "Jam5",
+  "extras": {
+    "isPlatform": true
+  },
+
+  "Props": {
+    "translatorText": [
+  			{
+				"xmlFile": "planets/xml/moddy.xml",
+				"type": "preCrashComputer",
+				"rename": "moddymodderson",
+"position": {"x": -10.20732, "y": 1.129508E-05, "z": 58.69209},
+"rotation": {"x": 6.339636E-06, "y": 175.8757, "z": -3.602626E-07}
+			}
+    ],
+    "warpTransmitters": [
+		  {
+			"alignmentWindow": 360,
+			"frequency": "Platform-Refuge",
+"position": {"x": 0, "y": 0, "z": 60},
+"rotation": {"x": 0, "y": 0, "z": 0}
+		  }
+	  ],
+    "details": [
+            {
+        "rename": "The Grand Tree Of Ultimate Doom",
+        "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+"position": {"x": -1.78664, "y": -0.1999897, "z": 46.45446},
+"rotation": {"x": 1.664615E-06, "y": 178.6255, "z": -7.096796E-07}
+      },
+      {
+        "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+        "parentPath": "Sector/The Grand Tree Of Ultimate Doom",
+        "isRelativeToParent": true
+      },
+                  {
+        "rename": "The Little Sapling Of Miniature Heroicness",
+        "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+"position": {"x": 1.453188, "y": -0.1999897, "z": 46.53248},
+"rotation": {"x": 1.664614E-06, "y": 178.6255, "z": 6.122982E-07}
+      },
+      {
+        "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+        "parentPath": "Sector/The Little Sapling Of Miniature Heroicness",
+        "isRelativeToParent": true
+      }
+    ]
+  }
+}

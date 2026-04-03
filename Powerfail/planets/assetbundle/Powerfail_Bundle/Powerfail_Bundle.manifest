@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 458038919
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: powerfail
+      Dependencies: {}
