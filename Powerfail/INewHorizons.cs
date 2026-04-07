@@ -5,7 +5,7 @@ using OWML.Common;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace MiniSystemTest
+namespace PowerFail
 {
     public interface INewHorizons
     {

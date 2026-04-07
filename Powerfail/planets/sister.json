@@ -59,13 +59,15 @@
 "identificationRadius": 300
 			}
 		],
+		
 		"remotes": [
 			{
 				"id": "SunsetSister",
 				"decalPath": "planets/assets/SunsetSister.png",
 				"platform": {
-"position": {"x": -0.3344078, "y": 213.6618, "z": -0.5418487},
-"rotation": {"x": 4.145881, "y": 210.601, "z": 356.2668}
+					"parentPath": "Sector/ProjectionPoolHouse/ProjectionPool_Pos",
+					"isRelativeToParent": true,
+					"position": {"y": -0.1127}
 				}
 			}
 		],
@@ -115,6 +117,12 @@
 			}
 		],
 		"details": [
+			{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/ProjectionPoolHouse.prefab",
+				"position": {"x": -0.3344, "y": 210.8924, "z": -0.5418487},
+				"alignRadial" : true
+			},
       {
         "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
         "parentPath": "Sector/SScamp",

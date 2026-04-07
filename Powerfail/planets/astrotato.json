@@ -34,9 +34,21 @@
 		"warpReceivers": [
 		{
 			"frequency": "Refuge-Asteroid",
-"position": {"x": -0.004457831, "y": 1.030495, "z": 0.1158487},
-"rotation": {"x": -2.544444E-14, "y": 195.5925, "z": 180}
+"position": {"x": 0, "y": -9.1781, "z": 0}
+
 		}
+		],
+		"remotes": [
+			{
+				"id": "Asteroid",
+				"decalPath": "planets/assets/Asteroid.png",
+				"platform": {
+					"parentPath": "thespacepotato_Body/Sector/Asteroid6/ProjectionPool_Pos",
+					"isRelativeToParent": true,
+					"position": {"y": 1.0836},
+					"rotation": {"z": 180}
+				}
+			}
 		],
 		"details": [
 			{

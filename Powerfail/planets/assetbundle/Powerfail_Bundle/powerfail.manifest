@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 374219284
+CRC: 3340117552
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4e29f69249b295dc772197f9ac8c50a2
+    Hash: 920ecadb7ef2af19027aae7b3db9439e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b6b27b86bb70e550a5b2652f674ff673
+    Hash: 9344f5b320a5be188271fbc8aa62f4e6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,7 +40,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 500372b3b1087d375c2f72ed03fa5a23, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
 - Class: 114
@@ -64,6 +68,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
+  Script: {fileID: -972405531, guid: 09ca8fccf5c142b47b3f033a7c5e4284, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0439374de7aa5c9cadcc76f4256d44a9, type: 3}
@@ -81,6 +87,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/PowerFail/Platform.prefab
 - Assets/PowerFail/Asteroid3.prefab
 - Assets/PowerFail/BB.prefab
 - Assets/PowerFail/SSPU.prefab
@@ -93,6 +100,7 @@ Assets:
 - Assets/PowerFail/Antena rig.prefab
 - Assets/PowerFail/Asteroid1.prefab
 - Assets/PowerFail/Asteroid4.prefab
+- Assets/PowerFail/ProjectionPoolHouse.prefab
 - Assets/PowerFail/Lightbulb_OWLK.prefab
 - Assets/PowerFail/SunsetSister.prefab
 - Assets/PowerFail/ProjectionCamp Detail.prefab

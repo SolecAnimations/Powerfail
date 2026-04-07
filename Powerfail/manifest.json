@@ -1,12 +1,13 @@
 {
-  "uniqueName": "TeamGeswaldo.Jam5",
-  "name": "PowerFail",
-  "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, Vodblink, and Callie)",
-  "version": "9.0",
-  "filename": "PowerFail.dll",
-  "owmlVersion": "2.15.1",
-  "dependencies": [
-    "xen.NewHorizons",
-    "xen-42.ModJam5"
-  ]
+    "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+    "uniqueName": "TeamGeswaldo.Jam5",
+    "name": "PowerFail",
+    "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, Vodblink, and Callie)",
+    "version": "9.0",
+    "filename": "PowerFail.dll",
+    "owmlVersion": "2.15.1",
+    "dependencies": [
+        "xen.NewHorizons",
+        "xen-42.ModJam5"
+    ]
 }

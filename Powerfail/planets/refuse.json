@@ -28,7 +28,7 @@
 		"remotes": [
 			{
 				"id": "Asteroid",
-				"decalPath": "planets/assets/No mind to think.png",
+				"decalPath": "planets/assets/Asteroid.png",
 				"stones": [
 					{
 						"position": {
@@ -46,7 +46,7 @@
 			},
 			{
 				"id": "Brother",
-				"decalPath": "planets/assets/joe.png",
+				"decalPath": "planets/assets/Brother.png",
 				"stones": [
 					{
 						"position": {
@@ -64,7 +64,7 @@
 			},
 			{
 				"id": "Maze",
-				"decalPath": "planets/assets/shoe is xen.png",
+				"decalPath": "planets/assets/SSPU.png",
 				"stones": [
 					{
 						"position": {
