@@ -15,7 +15,7 @@
 		"primaryBody": "Companion Conglomerate",
 		"inclination": 84,
 		"isMoon": true,
-		"isTidallyLocked": true,
+		"isTidallyLocked": false,
 		"siderealPeriod": 1.75,
 		"alignmentAxis": {"x": 0, "y": 90, "z": -50}
 	},
@@ -468,6 +468,21 @@
 			},
 			"scale": 1,
 			"keepLoaded": true
+		},{
+			"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+			"path": "Assets/PowerFail/OwlkRuin1.prefab",
+			"position": {
+				"x": 7.735476,
+				"y": 65.72387,
+				"z": 10.41513
+			},
+			"rotation":
+			{
+				"x": 349.495,
+				"y": 220.6108,
+				"z": 359.6376
+			},
+			"alignRadial": true
 		},
 		{
 			"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5",

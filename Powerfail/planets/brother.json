@@ -110,21 +110,6 @@
 				},
 				"scale": 1,
 				"keepLoaded": true
-			},
-									{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-				"path": "Assets/PowerFail/ProjectionCamp Detail.prefab",
-"position": {"x": -15.1529, "y": -327.3603, "z": -14.1698},
-"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
-				"scale": 1
-			},
-									{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-				"path": "Assets/PowerFail/Projection Camp Detail.prefab",
-"position": {"x": -15.15285, "y": -327.6483, "z": -12.90074},
-"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
-				"scale": 1,
-				"keepLoaded": true
 			}
 		]
 	},
@@ -150,15 +135,19 @@
 		}
 	},
 	"Sand": {
-		"size": 110,
+		"size": 300,
 		"curve": [
 			{
+			"time": 0,
+			"value": 1
+			},
+			{
 			"time": 9,
-			"value": 0.7
+			"value": 1
 			},
 						{
-			"time": 22,
-			"value": 7
+			"time": 16,
+			"value": 1.15
 			}
 		]
 	},

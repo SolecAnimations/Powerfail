@@ -66,6 +66,15 @@
 	]
 },
 "Props": {
+	"remotes": 
+	[
+		{
+			"id" : "Maze",
+			"decalPath": "planets/assets/SSPU.png",
+			"position": {"x": -14.9692, "y": 0, "z": 0},
+			"rotation": {"x": 0, "y": 0, "z": 90}
+		}
+	],	
 	"dialogue": [
 		{
 			"pathToAnimController": "Sector/Basil",
@@ -109,11 +118,12 @@
 		"warpReceivers": [
 		{
 			"frequency": "SSPU-Maze",
-"position": {"x": 0.01152926, "y": 4.754655, "z": 31.83673},
-"rotation": {"x": 2.327195, "y": 276.5846, "z": 289.7312},
+"position": {"x": 0, "y": -14.9692, "z": 0},
+"rotation": {"x": 0, "y": 0, "z": 0},
 "alignRadial": true
 		}
 	],
+	
 				"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
@@ -129,7 +139,6 @@
 					"y": 0,
 					"z": 0
 				},
-				"scale": 6,
 				"keepLoaded": true
 			}
 		]
