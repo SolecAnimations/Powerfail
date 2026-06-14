@@ -27,6 +27,9 @@
     <Content Include="PowerFail.csproj.user" />
   </ItemGroup>
   <ItemGroup>
+	  <None Include="assetbundle\**\*.*">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
     <None Include="planets\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

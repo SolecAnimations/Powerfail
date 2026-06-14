@@ -2,14 +2,15 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Sunset Sister Power Unit",
 	"starSystem": "Jam5",
+	"MapMarker": {
+		"enabled": true
+	},
 	"Base": {
 		"surfaceSize": 120,
 		"surfaceGravity": 0,
-		"hasMapMarker": true,
-		"ambientLight": 0.5,
 		"hasFluidDetector": false
-},
-"Cloak": 
+	},
+	"Cloak": 
 {
     "radius": 150,
     "farCloakRadius": 155,
@@ -17,7 +18,6 @@
     "nearCloakRadius": 100
 },
 "Volumes": {
-	
 	"lightSourceVolumes": 
 	[
      {
@@ -71,8 +71,16 @@
 		{
 			"id" : "Maze",
 			"decalPath": "planets/assets/SSPU.png",
-			"position": {"x": -14.9692, "y": 0, "z": 0},
-			"rotation": {"x": 0, "y": 0, "z": 90}
+			"position": {
+				"x": -14.9692,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 90
+			}
 		}
 	],	
 	"dialogue": [
@@ -80,59 +88,114 @@
 			"pathToAnimController": "Sector/Basil",
 			"xmlFile": "planets/xml/Basil.xml",
 			"radius": 3,
-"position": {"x": 0.1418195, "y": 33.98166, "z": -3.265439}
+			"position": {
+				"x": 0.1418195,
+				"y": 33.98166,
+				"z": -3.265439
+			}
 		}
 	],
 			"translatorText": [
 			{
 				"type": "preCrashRecorder",
-"position": {"x": -3.327461, "y": -0.01469141, "z": 31.95456},
-"rotation": {"x": -2.467737, "y": -83.86835, "z": -85.89552},
-"xmlFile": "planets/xml/WarpCores.xml"
+				"position": {
+					"x": -3.327461,
+					"y": -0.01469141,
+					"z": 31.95456
+				},
+				"rotation": {
+					"x": -2.467737,
+					"y": -83.86835,
+					"z": -85.89552
+				},
+				"xmlFile": "planets/xml/WarpCores.xml"
 			},
 						{
 				"type": "preCrashRecorder",
-"position": {"x": -0.1844773, "y": -31.57381, "z": -6.349207},
-"rotation": {"x": 10.38598, "y": 4.213869, "z": 175.2407},
-"xmlFile": "planets/xml/TimeIsMine.xml"
+				"position": {
+					"x": -0.1844773,
+					"y": -31.57381,
+					"z": -6.349207
+				},
+				"rotation": {
+					"x": 10.38598,
+					"y": 4.213869,
+					"z": 175.2407
+				},
+				"xmlFile": "planets/xml/TimeIsMine.xml"
 			},
 			{
 				"type": "preCrashRecorder",
-"position": {"x": 1.166279, "y": -13.25846, "z": 29.25063},
-"rotation": {"x": 347.4148, "y": 281.6354, "z": 244.0645},
-"xmlFile": "planets/xml/aMomentLastingTrauma.xml"
+				"position": {
+					"x": 1.166279,
+					"y": -13.25846,
+					"z": 29.25063
+				},
+				"rotation": {
+					"x": 347.4148,
+					"y": 281.6354,
+					"z": 244.0645
+				},
+				"xmlFile": "planets/xml/aMomentLastingTrauma.xml"
 			},
+				{
+					"type": "computer",
+					"position": {
+						"x": -0.01212621,
+						"y": -29.96633,
+						"z": 11.87239
+					},
+					"alignRadial": true,
+					"xmlFile": "planets/xml/SSPU.xml"
+				},
 			{
-             "type": "computer",
-			 "position": {"x": -0.01212621, "y": -29.96633, "z": 11.87239},
-			 "alignRadial": true,
-			 "xmlFile": "planets/xml/SSPU.xml"
-			},
-												{
 				"type": "preCrashRecorder",
-"position": {"x": 2.358424, "y": -0.4927049, "z": -32.02409},
-"rotation": {"x": 51.63334, "y": 268.8767, "z": 96.19257},
-"xmlFile": "planets/xml/WeBuiltItForThis.xml"
+				"position": {
+					"x": 2.358424,
+					"y": -0.4927049,
+					"z": -32.02409
+				},
+				"rotation": {
+					"x": 51.63334,
+					"y": 268.8767,
+					"z": 96.19257
+				},
+				"xmlFile": "planets/xml/WeBuiltItForThis.xml"
 			}
 		],
 		"warpReceivers": [
 		{
 			"frequency": "SSPU-Maze",
-"position": {"x": 0, "y": -14.9692, "z": 0},
-"rotation": {"x": 0, "y": 0, "z": 0},
-"alignRadial": true
+			"position": {
+				"x": 0,
+				"y": -14.9692,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+	"alignRadial": true
 		}
 	],
-	
-				"details": [
+	"details": [
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
-"position": {"x": 0.01488757, "y": 32.09199, "z": -2.568298},
-"rotation": {"x": 3.983487, "y": 180.6772, "z": 3.421219},
+				"position": {
+					"x": 0.01488757,
+					"y": 32.09199,
+					"z": -2.568298
+				},
+				"rotation": {
+					"x": 3.983487,
+					"y": 180.6772,
+					"z": 3.421219
+				},
 				"rename": "Basil"
 			},
 			{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"assetBundle": "assetbundle/powerfail",
 				"path": "Assets/PowerFail/SSPU.prefab",
 				"position": {
 					"x": 0,

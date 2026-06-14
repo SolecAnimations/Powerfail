@@ -2,11 +2,12 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Bruised Brother",
 	"starSystem": "Jam5",
+	"MapMarker": {
+		"enabled": true
+	},
 	"Base": {
 		"surfaceSize": 200,
 		"surfaceGravity": 24,
-		"hasMapMarker": true,
-		"ambientLight": 0.5,
 		"hasFluidDetector": false,
 		 "centerOfSolarSystem": true
 	},
@@ -63,45 +64,63 @@
 				"reveals": [ "SSPU_Enterance" ],
 				"revealFor": "both",
 				"position": {"x": 148.708, "y": -193.5996, "z": 195.9802}
-				
 			}
 		]
 	},
-  "Orbit": {
-    "staticPosition": {
-      "x": 8000,
-      "y": 2000,
-      "z": 7000
-    },
-	"axialTilt": -30
-},
-"Props": {
-	
-	"dialogue": [
-		{
-			"radius": 5,
-			"xmlFile": "planets/xml/secret.xml",
-			"position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161}
-		}
-	],
-	"warpTransmitters": [
-		{
-			"alignmentWindow": 360,
-			"frequency": "Brother-Maze",
-			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
-"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
-		}
-	],
-				"warpReceivers": [
-		{
-			"frequency": "Refuge-Brother",
-"position": {"x": -48.67031, "y": -326.6084, "z": 12.36176},
-"rotation": {"x": 1.262774, "y": 196.5853, "z": 187.7444}
-		}
-	],
+	  "Orbit": {
+	    "staticPosition": {
+	      "x": 8000,
+	      "y": 2000,
+	      "z": 7000
+	    },
+		"axialTilt": -30
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"radius": 5,
+				"xmlFile": "planets/xml/secret.xml",
+				"position": {
+					"x": 0.7270678,
+					"y": 681.6181,
+					"z": -0.2190161
+				}
+			}
+		],
+		"warpTransmitters": [
+			{
+				"alignmentWindow": 360,
+				"frequency": "Brother-Maze",
+				"position": {
+					"x": 148.708,
+					"y": -193.5996,
+					"z": 195.9802
+				},
+				"rotation": {
+					"x": 25.34543,
+					"y": 147.9024,
+					"z": 132.5454
+				}
+			}
+		],
+		"warpReceivers": [
+			{
+				"frequency": "Refuge-Brother",
+				"position": {
+					"x": -48.67031,
+					"y": -326.6084,
+					"z": 12.36176
+				},
+				"rotation": {
+					"x": 1.262774,
+					"y": 196.5853,
+					"z": 187.7444
+				}
+			}
+		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"assetBundle": "assetbundle/powerfail",
 				"path": "Assets/PowerFail/BB.prefab",
 				"position": {
 					"x": 0,
