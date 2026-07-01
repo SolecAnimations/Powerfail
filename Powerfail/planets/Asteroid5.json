@@ -29,7 +29,7 @@
 	"Props": {
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/asteroids",
 				"path": "Assets/PowerFail/Asteroid5.prefab",
 				"position": {
 					"x": 0,

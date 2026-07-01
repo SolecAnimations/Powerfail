@@ -82,7 +82,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/planets",
 				"path": "Assets/PowerFail/Lightbulb_OWLK.prefab",
 				"position": {
 					"x": 0,

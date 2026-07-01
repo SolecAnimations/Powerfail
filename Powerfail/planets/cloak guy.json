@@ -195,7 +195,7 @@
 				"rename": "Basil"
 			},
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/sister",
 				"path": "Assets/PowerFail/SSPU.prefab",
 				"position": {
 					"x": 0,

@@ -1,0 +1,233 @@
+ManifestFileVersion: 0
+CRC: 4250691047
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 302608b8bb0140ad9a5d4b1f3fd6ba27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 53daecea6ef9656483696b397ed2e276
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 117
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_StarTile_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintRed_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Particles_Additive.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintOrange_n.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_mat.mat
+- Assets/Texture2D/Structure_IP_Iron_d.png
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_2.asset
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_2_Trunk.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_mat.mat
+- Assets/PowerFail/Terrain_BH_RockTop_n 1.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Lamp.asset
+- Assets/Nomai Ruins/Prefabs/Floor.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_n.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmalTractorBeam_mask.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Geo.asset
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Hourglass Twins_Energy
+  Cable.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_mat.mat
+- Assets/GAMERIP/Material/Structure_NOM_OrbTrack_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/NoiseRGB_d.png
+- Assets/Resources/editor/textures/BoxShape.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_ao.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Foliage.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat.mat
+- Assets/GAMERIP/Texture2D/Structure_NOM_OrbTrack_v2_n.png
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_2.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_LargeTractorBeam_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_Lamp_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_1_Trunk.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Glow.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Tablet_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mask.png
+- Assets/Texture2D/FogColorRamp_TH.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_B_geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_n.png
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamRingReverse_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_StarTile_Glow_s.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_C_geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_n.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Tractor Beam.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_n.png
+- Assets/Nomai Ruins/Prefabs/BigPedestal2.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_s.png
+- Assets/PowerFail/Asteroid.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TimeLoopDeviceCable_e.png
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_EnergyCable_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_s.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_LargeTractorBeam_mask.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ShortColumn_Square_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingLamp_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Geo.asset
+- Assets/GAMERIP/Shader/Standard_0.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Brick_B_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_A_geo.asset
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingLamp_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Glass_Opaque_mat.mat
+- Assets/Nomai Ruins/Prefabs/BrokenWall_Half_Mir.prefab
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDetail_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Mir_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaITree_3.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairWalkway.fbx
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat Mir.mat
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 4x.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Connector.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_s.png
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_Emissive_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_A_geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeam_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Trim_C_geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_EmissiveMap.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintOrange_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Gravity Crystal.asset
+- Assets/shitandshit/Shader/Legacy Shaders_VertexLit.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_StarTile_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Divider_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Green_d.png
+- Assets/PowerFail/FogLookup.asset
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Green_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Anchor_Collider.asset
+- Assets/PowerFail/Terrain_BH_RockTop_d 1.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
+- Assets/GAMERIP/Material/Structure_NOM_SandStone_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_3_Trunk.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_t.png
+- Assets/Nomai Ruins/Prefabs/Grater.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_L_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallInside_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_d.png
+- Assets/Nomai Ruins/Prefabs/RubbleBrickB.prefab
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamRing_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
+- Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_R_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_Nom_GavityCrystal_h.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Collider.asset
+- Assets/Nomai Ruins/Prefabs/StairWalkway.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeLeaves_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_s.png
+- Assets/Nomai Ruins/Resources/Materials/NoiseWarm_d.png
+- Assets/Nomai Ruins/Resources/Materials/White_d.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_OrbTrack_v2_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamSprite_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Geo.asset
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat Mir.mat
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Mir_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Ceiling_mat.mat
+- Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_d.png
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Collider.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_m.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Tablet_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_1.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_n.png
+- Assets/Nomai Ruins/Prefabs/RailingPost.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintWhite_d.png
+- Assets/Nomai Ruins/Prefabs/RubbleFloorA.prefab
+- Assets/Nomai Ruins/Prefabs/Table.prefab
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_3.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeBark_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_HoloTV_Seat2.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Bot_Geo.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_s.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Geo 1.asset
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TimeLoopDeviceCable_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Effects_NOM_TractorBeamRing_Small.asset
+- Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WhiteBoardTile_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Floor_mat.mat
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Tractor Beam Glow Ring
+  (Decal).asset
+- Assets/Nomai Ruins/Prefabs/Chair.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Stairs_Solid_R_Collider.asset
+- Assets/shitandshit/Shader/Standard.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Anchor.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
+- Assets/Resources/editor/textures/SphereShape.png
+- Assets/GAMERIP/Resources/textures/Black_d.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Grater_geo.asset
+Dependencies:
+- C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/sister

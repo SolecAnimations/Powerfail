@@ -9,6 +9,10 @@
         "Debugger, Power Saver#SputnikSoyuz"
     ],
     "preloadAssetBundles": [
-        "assetbundle/powerfail"
+        "planets/assetbundle/commonassets",
+        "planets/assetbundle/structure",
+        "planets/assetbundle/planets",
+        "planets/assetbundle/sister",
+        "planets/assetbundle/asteroids"
     ]
 }

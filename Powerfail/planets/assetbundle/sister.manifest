@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 3885248532
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87dc54303fb0b40f7520cb14c1b8fab5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7c04c2875230708e98e7a0e8f0ad16d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e26fe096438ebdcab107a6aed898ce0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cfd736a3952486c93e9a5d8f58c79c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 505bf95c7870cd0659dac2b264f2d8df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0439374de7aa5c9cadcc76f4256d44a9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 117
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Resources/Shaders/Standard (BRDF Lookup).asset
+- Assets/PowerFail/SSPU.prefab
+- Assets/PowerFail/Maze.prefab
+- Assets/PowerFail/SunsetSister.prefab
+Dependencies:
+- C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/commonassets

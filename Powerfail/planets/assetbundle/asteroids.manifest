@@ -1,0 +1,71 @@
+ManifestFileVersion: 0
+CRC: 1770032746
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8e67be05bbe5b9675055f649faa0e9b3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3b2ed5440e5c42f57bbd87f4b8ad621d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0439374de7aa5c9cadcc76f4256d44a9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PowerFail/Asteroid3.prefab
+- Assets/PowerFail/Asteroid5.prefab
+- Assets/PowerFail/Asteroid6.prefab
+- Assets/PowerFail/Asteroid2.prefab
+- Assets/PowerFail/Asteroid1.prefab
+- Assets/PowerFail/Asteroid4.prefab
+Dependencies:
+- C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/commonassets

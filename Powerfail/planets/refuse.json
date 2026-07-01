@@ -7,6 +7,9 @@
 		"surfaceGravity": 10
 
 	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"canShowOnTitle": false,
 	"Orbit": {
 
@@ -471,7 +474,7 @@
 				"keepLoaded": true
 			},
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/planets",
 				"path": "Assets/PowerFail/WildsRefuse.prefab",
 				"position": {
 					"x": 0,
@@ -482,7 +485,7 @@
 				"keepLoaded": true
 			},
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/structure",
 				"path": "Assets/PowerFail/OwlkRuin1.prefab",
 				"position": {
 					"x": 7.735476,

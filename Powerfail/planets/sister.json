@@ -189,7 +189,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/structure",
 				"path": "Assets/PowerFail/ProjectionPoolHouse.prefab",
 				"position": {
 					"x": -0.3344,
@@ -204,7 +204,7 @@
 			  "isRelativeToParent": true
 			},
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/sister",
 				"path": "Assets/PowerFail/SunsetSister.prefab",
 				"position": {
 					"x": 0,
@@ -220,7 +220,7 @@
 				"keepLoaded": true
 			},
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/structure",
 				"path": "Assets/PowerFail/Antena rig.prefab",
 				"position": {
 					"x": 109.8027,
@@ -293,7 +293,7 @@
 			{
 				"loop": true,
 				"track": "music",
-				"audio": "planets/music/Sunset Sister.wav",
+				"audio": "planets/music/Sunset Sister.mp3",
 				"radius": 260,
 				"volume": 1
 			}

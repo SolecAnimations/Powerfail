@@ -120,7 +120,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/planets",
 				"path": "Assets/PowerFail/BB.prefab",
 				"position": {
 					"x": 0,
@@ -129,6 +129,34 @@
 				},
 				"scale": 1,
 				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/PowerTower.prefab",
+				"position": {
+					"x": -44.2,
+					"y": -535,
+					"z": -156.3
+				},
+				"rotation": {
+					"x": -172,
+					"y": 80.963,
+					"z": -16.9
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/ProjectionCampDetail.prefab",
+				"position": {
+					"x": -4.053648,
+					"y": -327.2784,
+					"z": -26.55
+				},
+				"rotation": {
+					"x": 4.863,
+					"y": 2.085,
+					"z": 182.141
+				}
 			}
 		]
 	},

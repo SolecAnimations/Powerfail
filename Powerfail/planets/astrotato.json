@@ -55,7 +55,7 @@
 				"id": "Asteroid",
 				"decalPath": "planets/assets/Asteroid.png",
 				"platform": {
-					"parentPath": "thespacepotato_Body/Sector/Asteroid6/ProjectionPool_Pos",
+					"parentPath": "Sector/Asteroid6/ProjectionPool_Pos",
 					"isRelativeToParent": true,
 					"position": { "y": 1.0836 },
 					"rotation": { "z": 180 }
@@ -64,7 +64,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/asteroids",
 				"path": "Assets/PowerFail/Asteroid6.prefab",
 				"position": {
 					"x": 0,

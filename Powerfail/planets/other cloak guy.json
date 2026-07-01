@@ -58,7 +58,7 @@
 		],
 		"details": [
 			{
-				"assetBundle": "assetbundle/powerfail",
+				"assetBundle": "planets/assetbundle/sister",
 				"path": "Assets/PowerFail/Maze.prefab",
 				"position": {
 					"x": 0,
