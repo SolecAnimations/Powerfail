@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1671380218
+CRC: 3539304453
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,7 +10,8 @@ AssetBundleManifest:
     Info_1:
       Name: asteroids
       Dependencies:
-        Dependency_0: commonassets
+        Dependency_0: structure
+        Dependency_1: commonassets
     Info_2:
       Name: structure
       Dependencies:

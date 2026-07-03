@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3789378302
+CRC: 2193198100
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e3aea70de2f4950a19d6133e99950fa1
+    Hash: d893b571bf41ca5f2a9e1070090f408b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e8fb8a43f224ccef4d0ea0130283b5dd
+    Hash: 39396e2370296bf46ee6dcb1be9283bb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -98,6 +98,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
+  Script: {fileID: -249323246, guid: 09ca8fccf5c142b47b3f033a7c5e4284, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
@@ -113,6 +115,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a1f326afd8115cd8f4068186646cea5d, type: 3}
+- Class: 114
+  Script: {fileID: 873524430, guid: 09ca8fccf5c142b47b3f033a7c5e4284, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -131,6 +135,9 @@ Assets:
 - Assets/PowerFail/ProjectionCampDetail.prefab
 - Assets/PowerFail/Antena rig.prefab
 - Assets/PowerFail/ProjectionPoolHouse.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
+- Assets/PowerFail/OwlkRuin2.prefab
 - Assets/PowerFail/PowerTower.prefab
 Dependencies:
 - C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/commonassets

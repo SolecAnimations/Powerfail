@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1770032746
+CRC: 1223654025
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8e67be05bbe5b9675055f649faa0e9b3
+    Hash: c6074da06b55c82a9c63bd2fd0bd54ae
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3b2ed5440e5c42f57bbd87f4b8ad621d
@@ -69,3 +69,4 @@ Assets:
 - Assets/PowerFail/Asteroid4.prefab
 Dependencies:
 - C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/commonassets
+- C:/Users/jn7jn/source/repos/Powerfail/Powerfail/planets/assetbundle/structure

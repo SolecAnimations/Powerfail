@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4250691047
+CRC: 1273807005
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 302608b8bb0140ad9a5d4b1f3fd6ba27
+    Hash: d49c993a55d4bd9e6f435778ebc83e35
   TypeTreeHash:
     serializedVersion: 2
     Hash: 53daecea6ef9656483696b397ed2e276
@@ -97,7 +97,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ShortColumn_Square_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingLamp_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Geo.asset
-- Assets/GAMERIP/Shader/Standard_0.asset
 - Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_n.png
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Brick_B_geo.asset
@@ -142,11 +141,9 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Anchor_Collider.asset
 - Assets/PowerFail/Terrain_BH_RockTop_d 1.png
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Collider.asset
-- Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
 - Assets/GAMERIP/Material/Structure_NOM_SandStone_mat.mat
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_3_Trunk.asset
-- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
 - Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_t.png
 - Assets/Nomai Ruins/Prefabs/Grater.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Collider.asset
@@ -164,6 +161,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
 - Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Geo.asset
+- Assets/Material/Bars.mat
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_R_Geo.asset
 - Assets/Nomai Ruins/Resources/Materials/Props_Nom_GavityCrystal_h.png
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Collider.asset

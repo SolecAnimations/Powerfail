@@ -118,14 +118,14 @@
 			{
 				"frequency": "Platform-Refuge",
 				"position": {
-					"x": 15.80604,
-					"y": -3.341545,
-					"z": 78.48455
+					"x": 44.2836,
+					"y": 2.558302,
+					"z": 50.20609
 				},
 				"rotation": {
-					"x": 10.10538,
-					"y": 102.882,
-					"z": 91.0071
+					"x": 10.6431,
+					"y": 311.9754,
+					"z": 273.4002
 				}
 			}
 		],
@@ -198,14 +198,14 @@
 				"type": "preCrashRecorder",
 				"rename": "worldyworldyson",
 				"position": {
-					"x": 1.977148,
-					"y": 2.305824,
-					"z": 80.37563
+					"x": 35.38217,
+					"y": -14.52959,
+					"z": 54.99135
 				},
 				"rotation": {
-					"x": -346.2912,
-					"y": -94.11726,
-					"z": -87.82762
+					"x": 356.399,
+					"y": 121.6625,
+					"z": 102.69
 				}
 			},
 			{
@@ -361,117 +361,57 @@
 				"rename": "Cedar",
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
 				"position": {
-					"x": 21.496,
-					"y": 35.38559,
-					"z": -26.19419
+					"x": 3.860728,
+					"y": 66.79413,
+					"z": 3.326672
 				},
 				"rotation": {
-					"x": 318.7241,
-					"y": 295.8971,
-					"z": 16.85054
+					"x": 356.882,
+					"y": 271.3647,
+					"z": 356.7349
 				}
 			},
 			{
 				"rename": "Elm",
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
 				"position": {
-					"x": 21.98624,
-					"y": 29.75072,
-					"z": -39.0502
+					"x": 11.49064,
+					"y": 64.65745,
+					"z": 20.72177
 				},
 				"rotation": {
-					"x": 309.1469,
-					"y": 335.688,
-					"z": 353.0228
+					"x": 343.2668,
+					"y": 211.9796,
+					"z": 359.5795
 				}
 			},
 			{
 				"rename": "Cherry",
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
 				"position": {
-					"x": -9.291737,
-					"y": 39.73257,
-					"z": -38.44305
+					"x": 14.13969,
+					"y": 62.65669,
+					"z": -25.08201
 				},
 				"rotation": {
-					"x": 321.9779,
-					"y": 1.721882,
-					"z": 8.118117
+					"x": 3.555324,
+					"y": 244.1642,
+					"z": 28.95222
 				}
 			},
 			{
 				"rename": "Alder",
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
 				"position": {
-					"x": 0.05273628,
-					"y": 42.05878,
-					"z": 26.23389
+					"x": 18.36433,
+					"y": 57.11436,
+					"z": -34.12851
 				},
 				"rotation": {
-					"x": 344.0832,
-					"y": 220.9384,
-					"z": 340.3059
+					"x": 339.2232,
+					"y": 293.4213,
+					"z": 20.91941
 				}
-			},
-			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-				"position": {
-					"x": 21.21438,
-					"y": 31.04641,
-					"z": -31.40749
-				},
-				"rotation": {
-					"x": 51.19276,
-					"y": 147.7908,
-					"z": 0.8341346
-				},
-				"scale": 0.75,
-				"keepLoaded": true
-			},
-			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-				"position": {
-					"x": -7.576705,
-					"y": 38.38471,
-					"z": -29.48388
-				},
-				"rotation": {
-					"x": 36.91942,
-					"y": 215.3458,
-					"z": 12.7136
-				},
-				"scale": 0.75,
-				"keepLoaded": true
-			},
-			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-				"position": {
-					"x": -3.968328,
-					"y": 44.12669,
-					"z": 20.91168
-				},
-				"rotation": {
-					"x": 23.85326,
-					"y": 7.836459,
-					"z": 8.122653
-				},
-				"scale": 0.75,
-				"keepLoaded": true
-			},
-			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-				"position": {
-					"x": 37.47196,
-					"y": 24.87508,
-					"z": 19.42831
-				},
-				"rotation": {
-					"x": 300.8538,
-					"y": 256.913,
-					"z": 346.9941
-				},
-				"scale": 0.75,
-				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/assetbundle/planets",
@@ -488,16 +428,29 @@
 				"assetBundle": "planets/assetbundle/structure",
 				"path": "Assets/PowerFail/OwlkRuin1.prefab",
 				"position": {
-					"x": 7.735476,
-					"y": 65.72387,
-					"z": 10.41513
+					"x": 8.1839,
+					"y": 66.368,
+					"z": 16.0686
 				},
 				"rotation": {
-					"x": 349.495,
-					"y": 220.6108,
-					"z": 359.6376
+					"x": 358.7148,
+					"y": 124.7974,
+					"z": 16.6903
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/OwlkRuin2.prefab",
+				"position": {
+					"x": 14.3396,
+					"y": 58.4093,
+					"z": -33.0869
 				},
-				"alignRadial": true
+				"rotation": {
+					"x": 4.8339,
+					"y": 241.8391,
+					"z": 28.7821
+				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5",
@@ -733,28 +686,28 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 24.13686,
-					"y": 58.95614,
-					"z": -20.72149
+					"x": 22.766,
+					"y": 59.5416,
+					"z": -16.4978
 				},
 				"rotation": {
-					"x": 332.0857,
+					"x": 334.9823,
 					"y": 304.0166,
-					"z": 3.935602
+					"z": 3.9356
 				},
 				"keepLoaded": true
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 24.45131,
-					"y": 62.23615,
-					"z": -4.027244
+					"x": 20.7513,
+					"y": 63.0453,
+					"z": 3.6091
 				},
 				"rotation": {
-					"x": 345.9958,
-					"y": 229.6139,
-					"z": 15.86085
+					"x": 348.3157,
+					"y": 226.9536,
+					"z": 9.1827
 				},
 				"keepLoaded": true
 			},
@@ -789,14 +742,14 @@
 			{
 				"path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
 				"position": {
-					"x": 5.815858,
-					"y": -4.920841,
-					"z": 80.05391
+					"x": 34.80525,
+					"y": -11.48303,
+					"z": 56.0742
 				},
 				"rotation": {
-					"x": 320.4748,
-					"y": 277.8981,
-					"z": 267.2822
+					"x": 327.9384,
+					"y": 116.3959,
+					"z": 101.2623
 				},
 				"keepLoaded": true
 			}
@@ -848,7 +801,51 @@
 		"xmlFile": "planets/shiplog/Refuse.xml",
 		"mapMode": {
 			"revealedSprite": "planets/assets/FR.png",
-			"scale": 1
+			"scale": 1,
+			"invisibleWhenHidden": false
 		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_PowerFail_Refuse_Campfire",
+				"position": {
+					"x": 38.05322,
+					"y": -0.3727541,
+					"z": 55.13025
+				},
+				"rotation": {
+					"x": 359.9908,
+					"y": 124.0957,
+					"z": 90
+				}
+			},
+			{
+				"rename": "_PowerFail_Refuse_WarpZone",
+				"position": {
+					"x": -59.44345,
+					"y": -19.56975,
+					"z": -17.56424
+				},
+				"rotation": {
+					"x": 332.9054,
+					"y": 172.8342,
+					"z": 250.2335
+				}
+			},
+			{
+				"rename": "_PowerFail_Refuse_Stranger",
+				"position": {
+					"x": -21.18954,
+					"y": 63.51501,
+					"z": 1.991206
+				},
+				"rotation": {
+					"x": 16.15994,
+					"y": 242.5238,
+					"z": 349.9524
+				}
+			}
+		]
 	}
 }

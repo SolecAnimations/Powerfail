@@ -56,9 +56,7 @@
 				"decalPath": "planets/assets/Asteroid.png",
 				"platform": {
 					"parentPath": "Sector/Asteroid6/ProjectionPool_Pos",
-					"isRelativeToParent": true,
-					"position": { "y": 1.0836 },
-					"rotation": { "z": 180 }
+					"isRelativeToParent": true
 				}
 			}
 		],
@@ -80,6 +78,18 @@
 				"keepLoaded": true
 			}
 		]
-
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_PowerFail_Asteroid",
+				"isDefault": false,
+				"position": {
+					"x": 0,
+					"y": -9.1781,
+					"z": 0
+				}
+			}
+		]
 	}
 }

@@ -55,6 +55,6 @@
     </Reference>
   </ItemGroup>
 	<Target Name="BuildDll" AfterTargets="Build">
-		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(USERPROFILE)/Outer Wilds RIP/Assets" />
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="D:\Apps\Gamerip\PowerFailUnity\Outer Wilds RIP\Assets"/>
 	</Target>
 </Project>
