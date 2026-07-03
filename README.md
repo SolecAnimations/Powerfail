@@ -23,3 +23,5 @@ Have some quotes from the developers!
 “This mod helped me share my love for music- blah blah blah, that cynical stuff ain’t my style. I had fun making the music though.” - Hero
 
 "geswaldo growing simulator" - Callie
+
+"If you told me last year that I'd be the one to save Powerfail, I'd probably stare at you in confusion." -SputnikSoyuz
