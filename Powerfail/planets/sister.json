@@ -326,12 +326,30 @@
 			}
 		]
 	},
-  	"ShipLog" : {
+	"ShipLog": {
 		"spriteFolder": "planets/shiplog",
 		"xmlFile": "planets/shiplog/Sister.xml",
-		"mapMode" : {
+		"mapMode": {
 			"revealedSprite": "planets/assets/SS.png",
 			"scale": 1.2
 		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_Powerfail_SS_AntennaRig",
+				"isDefault": false,
+				"position": {
+					"x": 113.9475,
+					"y": -37.625,
+					"z": 124.9481
+				},
+				"rotation": {
+					"x": 291.1862,
+					"y": 91.46001,
+					"z": 131.7684
+				}
+			}
+		]
 	}
 }
