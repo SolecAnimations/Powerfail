@@ -401,4 +401,4 @@ FodyWeavers.xsd
 .idea
 
 # Igonre asset bundle files
-Powerfail/planets/assetbundle
+Powerfail/assetbundle

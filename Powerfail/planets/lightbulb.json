@@ -2,27 +2,26 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Lofted Lightbulb",
 	"starSystem": "Jam5",
+	"MapMarker": {
+		"enabled": true
+	},
 	"Base": {
 		"surfaceSize": 30,
-		"surfaceGravity": 5,
-		"hasMapMarker": true
+		"surfaceGravity": 5
 	},
-		"removeChildren": [
-        "Sector/Star/Audio_Star/SurfaceAudio_Sun"
-	],
-"Star": {
-	"size": 1,
-	"lightRadius": 300,
-	"lifespan": 23,
-	"lightTint": {
-		"r": 255,
-		"g": 240,
-		"b": 255,
-		"a": 255
-	}
-},
-			"Orbit": {
-		"canShowOnTitle": false,
+	"canShowOnTitle": false,
+	"Star": {
+		"size": 1,
+		"lightRadius": 300,
+		"lifespan": 23,
+		"lightTint": {
+			"r": 255,
+			"g": 240,
+			"b": 255,
+			"a": 255
+		}
+	},
+	"Orbit": {
 		"semiMajorAxis": 200,
 		"primaryBody": "Companion Conglomerate",
 		"isTidallyLocked": true,
@@ -35,31 +34,51 @@
 		"oxygenVolumes": [
 			{
 				"treeVolume": true,
-"position": {"x": -28.21856, "y": 3.783183, "z": 4.170747},
+				"position": {
+					"x": -28.21856,
+					"y": 3.783183,
+					"z": 4.170747
+				},
 				"radius": 17
 			}
 		]
 	},
 	"Props": {
 		"translatorText": [
-							{
+			{
 				"xmlFile": "planets/xml/4-LL/ReachingToTheCore.xml",
 				"type": "scroll",
 				"rename": "nubScroll",
-"position": {"x": -28.97009, "y": 5.381241, "z": 0.01346239},
-"rotation": {"x": 79.33403, "y": 252.2765, "z": 343.9168}
+				"position": {
+					"x": -33.2917,
+					"y": 6.9286,
+					"z": 3.3069
+				},
+				"rotation": {
+					"x": 337.3846,
+					"y": 7.8183,
+					"z": 142.3646
+				}
 			},
-										{
+			{
 				"xmlFile": "planets/xml/4-LL/UmThatJustHappened.xml",
 				"type": "preCrashRecorder",
 				"rename": "nubRecorder",
-"position": {"x": -28.26348, "y": 6.399929, "z": 5.251358},
-"rotation": {"x": 49.31627, "y": 204.2366, "z": 289.6599}
+				"position": {
+					"x": -33.62856,
+					"y": 1.159404,
+					"z": 4.934064
+				},
+				"rotation": {
+					"x": 359.2603,
+					"y": 6.855146,
+					"z": 87.86533
+				}
 			}
 		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"assetBundle": "planets/assetbundle/planets",
 				"path": "Assets/PowerFail/Lightbulb_OWLK.prefab",
 				"position": {
 					"x": 0,
@@ -74,11 +93,19 @@
 				"scale": 1,
 				"keepLoaded": true
 			},
-					{
-			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteCookingStand",
-"position": {"x": -28.17739, "y": 3.176962, "z": 4.853647},
-"rotation": {"x": 4.758208, "y": 189.5601, "z": 275.8616},
-"scale": 1,
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteCookingStand",
+				"position": {
+					"x": -32.60879,
+					"y": 5.114159,
+					"z": 8.222462
+				},
+				"rotation": {
+					"x": 355.4364,
+					"y": 193.023,
+					"z": 279.1612
+				},
+				"scale": 1,
 				"removeChildren": [
 					"Props_HEA_Carabiner",
 					"Props_HEA_SardineSkeleton2",
@@ -93,41 +120,102 @@
 					"Props_HEA_TeapotTop",
 					"Props_HEA_Wrench"
 				],
-"item": {
-	"name": "Pot Of Chaos",
-	"itemType": "Decoration"
+				"item": {
+					"name": "Pot Of Chaos",
+					"itemType": "Decoration"
 				}
 			},
-								    {
-      "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
-"position": {"x": -28.56334, "y": 2.058054, "z": 2.970856},
-"rotation": {"x": 1.750229, "y": 186.8129, "z": 276.4366}
-    },
-							    {
-      "path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
-"position": {"x": -27.95148, "y": 6.168068, "z": 3.178832},
-"rotation": {"x": 64.25726, "y": 210.5197, "z": 297.9543}
-    },
-					    {
-      "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
-"position": {"x": -27.95148, "y": 6.168068, "z": 3.178832},
-"rotation": {"x": 64.25726, "y": 210.5197, "z": 297.9543},
-"keepLoaded": true
-    },
-							    {
-      "path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
-"position": {"x": -28.21856, "y": 3.783183, "z": 4.170747},
-"rotation": {"x": 72.59614, "y": 344.6151, "z": 63.64727},
-"keepLoaded": true
-    }
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/GravityCrystals/Prefab_NOM_GravityCrystal (1)",
+				"position": {
+					"x": -32.96123,
+					"y": 5.86729,
+					"z": 5.840014
+				},
+				"rotation": {
+					"x": 64.36719,
+					"y": 348.9413,
+					"z": 68.53284
+				}
+			},
+			{
+				"path": "DB_VesselDimension_Body/Sector_VesselDimension/Props_VesselDimension/Prefab_NOM_NomaiTree_VarDRY_3/GEO_Treepot_3",
+				"position": {
+					"x": -33.87474,
+					"y": 2.126745,
+					"z": 2.191717
+				},
+				"rotation": {
+					"x": 320.4399,
+					"y": 182.9538,
+					"z": 273.629
+				}
+			},
+			{
+				"path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+				"position": {
+					"x": -33.87474,
+					"y": 2.126745,
+					"z": 2.191717
+				},
+				"rotation": {
+					"x": 320.4399,
+					"y": 182.9538,
+					"z": 273.629
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"position": {
+					"x": -33.35477,
+					"y": 4.371191,
+					"z": 4.82153
+				},
+				"rotation": {
+					"x": 330.7698,
+					"y": 13.78688,
+					"z": 82.04444
+				},
+				"keepLoaded": true
+			}
 		]
 	},
-	  		"ShipLog" : {
+	"ShipLog": {
 		"spriteFolder": "planets/shiplog",
 		"xmlFile": "planets/shiplog/Lightbulb.xml",
-		"mapMode" : {
+		"mapMode": {
 			"revealedSprite": "planets/assets/RL.png",
+			"invisibleWhenHidden": false,
 			"scale": 0.6
 		}
+	},
+	"removeChildren": [
+		"Sector/Star/Audio_Star",
+		"Sector/Star/Surface",
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/Supernova",
+		"Sector/Star/SolarFlareEmitter",
+		"Sector/Star/HeatVolume",
+		"Sector/Star/AmbientLight_Star",
+		"Sector/Star/Atmosphere_Star"
+	],
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_Powerfail_Lightbulb",
+				"position": {
+					"x": -32.69196,
+					"y": 8.647576,
+					"z": 3.745657
+				},
+				"rotation": {
+					"x": 15.94377,
+					"y": 0.03270071,
+					"z": 72.65844
+				}
+			}
+		]
 	}
 }

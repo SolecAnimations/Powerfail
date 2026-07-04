@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3539304453
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: planets
+      Dependencies:
+        Dependency_0: structure
+        Dependency_1: commonassets
+    Info_1:
+      Name: asteroids
+      Dependencies:
+        Dependency_0: structure
+        Dependency_1: commonassets
+    Info_2:
+      Name: structure
+      Dependencies:
+        Dependency_0: commonassets
+    Info_3:
+      Name: sister
+      Dependencies:
+        Dependency_0: commonassets
+    Info_4:
+      Name: commonassets
+      Dependencies:
+        Dependency_0: sister

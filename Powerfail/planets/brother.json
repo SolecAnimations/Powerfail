@@ -2,13 +2,14 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Bruised Brother",
 	"starSystem": "Jam5",
+	"MapMarker": {
+		"enabled": true
+	},
 	"Base": {
 		"surfaceSize": 200,
 		"surfaceGravity": 24,
-		"hasMapMarker": true,
-		"ambientLight": 0.5,
 		"hasFluidDetector": false,
-		 "centerOfSolarSystem": true
+		"centerOfSolarSystem": true
 	},
 	"Rings": [
 		{
@@ -34,10 +35,12 @@
 	"Volumes": {
 		"notificationVolumes": 
 		[
-		{
-			"radius": 950,
-			"entryNotification": {"displayMessage": "WARNING SOLID SURFACE DETECTED"}
-		}
+			{
+				"radius": 950,
+				"entryNotification": {
+					"displayMessage": "WARNING SOLID SURFACE DETECTED"
+				}
+			}
 		],
 		"audioVolumes": [
 			{
@@ -63,45 +66,63 @@
 				"reveals": [ "SSPU_Enterance" ],
 				"revealFor": "both",
 				"position": {"x": 148.708, "y": -193.5996, "z": 195.9802}
-				
 			}
 		]
 	},
-  "Orbit": {
-    "staticPosition": {
-      "x": 8000,
-      "y": 2000,
-      "z": 7000
-    },
-	"axialTilt": -30
-},
-"Props": {
-	
-	"dialogue": [
-		{
-			"radius": 5,
-			"xmlFile": "planets/xml/secret.xml",
-			"position": {"x": 0.7270678, "y": 681.6181, "z": -0.2190161}
-		}
-	],
-	"warpTransmitters": [
-		{
-			"alignmentWindow": 360,
-			"frequency": "Brother-Maze",
-			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
-"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
-		}
-	],
-				"warpReceivers": [
-		{
-			"frequency": "Refuge-Brother",
-"position": {"x": -48.67031, "y": -326.6084, "z": 12.36176},
-"rotation": {"x": 1.262774, "y": 196.5853, "z": 187.7444}
-		}
-	],
+	  "Orbit": {
+	    "staticPosition": {
+	      "x": 8000,
+	      "y": 2000,
+	      "z": 7000
+	    },
+		"axialTilt": -30
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"radius": 5,
+				"xmlFile": "planets/xml/secret.xml",
+				"position": {
+					"x": 0.7270678,
+					"y": 681.6181,
+					"z": -0.2190161
+				}
+			}
+		],
+		"warpTransmitters": [
+			{
+				"alignmentWindow": 360,
+				"frequency": "Brother-Maze",
+				"position": {
+					"x": 150.7302,
+					"y": -228.8923,
+					"z": 225.0845
+				},
+				"rotation": {
+					"x": 339.1071,
+					"y": 68.53806,
+					"z": 128.7426
+				}
+			}
+		],
+		"warpReceivers": [
+			{
+				"frequency": "Refuge-Brother",
+				"position": {
+					"x": -48.6703,
+					"y": -327.4084,
+					"z": 12.3618
+				},
+				"rotation": {
+					"x": 1.262774,
+					"y": 196.5853,
+					"z": 187.7444
+				}
+			}
+		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"assetBundle": "planets/assetbundle/planets",
 				"path": "Assets/PowerFail/BB.prefab",
 				"position": {
 					"x": 0,
@@ -110,6 +131,20 @@
 				},
 				"scale": 1,
 				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/PowerTower.prefab",
+				"position": {
+					"x": -44.2,
+					"y": -535.1,
+					"z": -156.3
+				},
+				"rotation": {
+					"x": -172,
+					"y": 80.963,
+					"z": -16.9
+				}
 			}
 		]
 	},
@@ -138,16 +173,48 @@
 		"size": 300,
 		"curve": [
 			{
-			"time": 0,
-			"value": 1
+				"time": 0,
+				"value": 1
 			},
 			{
-			"time": 9,
-			"value": 1
+				"time": 9,
+				"value": 1
 			},
-						{
-			"time": 16,
-			"value": 1.15
+			{
+				"time": 16,
+				"value": 1.15
+			}
+		]
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_PowerFail_BB_Tower",
+				"isDefault": false,
+				"position": {
+					"x": -55.41439,
+					"y": -741.8522,
+					"z": -219.4434
+				},
+				"rotation": {
+					"x": 18.46246,
+					"y": 17.53328,
+					"z": 180.5345
+				}
+			},
+			{
+				"rename": "_PowerFail_BB_Surface",
+				"isDefault": false,
+				"position": {
+					"x": -4.934978,
+					"y": -336.0858,
+					"z": -27.04037
+				},
+				"rotation": {
+					"x": 5.29179,
+					"y": 343.3896,
+					"z": 180.4716
+				}
 			}
 		]
 	},
@@ -156,7 +223,7 @@
 		"xmlFile": "planets/shiplog/Brother.xml",
 		"mapMode" : {
 			"revealedSprite": "planets/assets/BB.png",
-			"scale": 2
+			"scale": 3
 		}
 	}
 }

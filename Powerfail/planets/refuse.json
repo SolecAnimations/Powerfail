@@ -4,26 +4,33 @@
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 80,
-		"surfaceGravity": 10,
-		"hasMapMarker": true,
-		"ambientLight": 0.5
-		
+		"surfaceGravity": 10
+
 	},
-			"Orbit": {
-		"canShowOnTitle": false,
+	"MapMarker": {
+		"enabled": true
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+
 		"semiMajorAxis": 12,
 		"primaryBody": "Companion Conglomerate",
 		"inclination": 84,
 		"isMoon": true,
 		"isTidallyLocked": false,
 		"siderealPeriod": 1.75,
-		"alignmentAxis": {"x": 0, "y": 90, "z": -50}
+		"alignmentAxis": {
+			"x": 0,
+			"y": 90,
+			"z": -50
+		}
 	},
-	"removeChildren": [ "Sector/BrotherWarp/Props_NOM_WarpCoreBlack",
-						"Sector/BrotherWarp/PointLight_NOM_WarpCoreBlack (1)",
-						"Sector/BrotherWarp/Structure_NOM_WarpTransmitter",
-						"Sector/BrotherWarp/Structure_NOM_PlatformContainer"
-						],
+	"removeChildren": [
+		"Sector/BrotherWarp/Props_NOM_WarpCoreBlack",
+		"Sector/BrotherWarp/PointLight_NOM_WarpCoreBlack (1)",
+		"Sector/BrotherWarp/Structure_NOM_WarpTransmitter",
+		"Sector/BrotherWarp/Structure_NOM_PlatformContainer"
+	],
 	"Props": {
 		"remotes": [
 			{
@@ -81,622 +88,671 @@
 				]
 			}
 		],
-					"dialogue": [
-		{
-			"pathToAnimController": "Sector/Cedar",
-			"xmlFile": "planets/xml/3-WR/Cedar.xml",
-			"radius": 3,
-"isRelativeToParent": true
-		},
-		{
-			"pathToAnimController": "Sector/Elm",
-			"xmlFile": "planets/xml/3-WR/Elm.xml",
-			"radius": 3,
-"isRelativeToParent": true
-		},
-		{
-			"pathToAnimController": "Sector/Cherry",
-			"xmlFile": "planets/xml/3-WR/Cherry.xml",
-			"radius": 3,
-"isRelativeToParent": true
-		},
-		{
-			"pathToAnimController": "Sector/Alder",
-			"xmlFile": "planets/xml/3-WR/Alder.xml",
-			"radius": 3,
-"isRelativeToParent": true
-		}
-	],
-				"warpReceivers": [
-		{
-			"frequency": "Platform-Refuge",
-"position": {"x": 15.80604, "y": -3.341545, "z": 78.48455},
-"rotation": {"x": 10.10538, "y": 102.882, "z": 91.0071}
-		}
-	],
-	"warpTransmitters": [
-		{
-			"frequency": "Refuge-Asteroid",
-			"position": {
-				"x": -59.49497,
-				"y": -25.41017,
-				"z": -6.298454
-			},
-			"rotation": {
-				"x": 22.03806,
-				"y": 3.856817,
-				"z": 114.9445
-			},
-			"alignmentWindow": 360,
-			"rename": "AsteroidWarp"
-		},
-
-		{
-			"frequency": "Refuge-Brother",
-			"position": {
-				"x": -59.49497,
-				"y": -25.41017,
-				"z": -6.298454
-			},
-			"rotation": {
-				"x": 22.03806,
-				"y": 3.856817,
-				"z": 114.9445
-			},
-			"alignmentWindow": 360,
-			"rename": "BrotherWarp"
-		},
-		{
-			"frequency": "Refuge-Maze",
-			"position": {
-				"x": -59.49497,
-				"y": -25.41017,
-				"z": -6.298454
-			},
-			"rotation": {
-				"x": 22.03806,
-				"y": 3.856817,
-				"z": 114.9445
-			},
-			"alignmentWindow": 360,
-			"rename": "MazeWarp"
-		}
-	],
-	"geysers": [
-		{
-			"position": {
-				"x": 38.8765,
-				"y": -26.96621,
-				"z": 12.72086
-
-			},
-			"rotation": {
-				"x": 337.833,
-				"y": 356.6102,
-				"z": 233.9147
-			}
-		}
-	],
-	"translatorText": [
-		{
-			"xmlFile": "planets/xml/exploringAFracturedWorld.xml",
-			"type": "preCrashRecorder",
-			"rename": "worldyworldyson",
-			"position": {
-				"x": 1.977148,
-				"y": 2.305824,
-				"z": 80.37563
-			},
-			"rotation": {
-				"x": -346.2912,
-				"y": -94.11726,
-				"z": -87.82762
-			}
-		},
-		{
-
-			"xmlFile": "planets/xml/whyAreYouHereInMyLife.xml",
-			"type": "preCrashRecorder",
-			"rename": "alienalienson",
-			"position": {
-				"x": 12.87241,
-				"y": 38.33867,
-				"z": -27.6538
-			},
-			"rotation": {
-				"x": -337.3312,
-				"y": -33.50604,
-				"z": -327.4879
-			}
-		},
-		{
-			"xmlFile": "planets/xml/TheFirstCode.xml",
-			"type": "scroll",
-			"rename": "othercodeothercodeyseon",
-			"position": {
-				"x": 12.61656,
-				"y": 1.551311,
-				"z": -47.31169
-			},
-			"rotation": {
-				"x": 330.962,
-				"y": 112.4736,
-				"z": 153.7585
-			}
-		},
-		{
-			"xmlFile": "planets/xml/LightbulbsIncentive.xml",
-			"type": "recorder",
-			"position": {
-				"x": 28.21868,
-				"y": -38.09122,
-				"z": 12.38139
-			},
-			"rotation": {
-				"x": 334.9727,
-				"y": 255.6075,
-				"z": 88.21321
-			}
-		},
-		{
-			"type": "whiteboard",
-			"position": {
-				"x": 33.62564,
-				"y": 6.665954,
-				"z": 57.55398
-			},
-			"rotation": {
-				"x": 359.7155,
-				"y": 120.4878,
-				"z": 83.62283
-			}
-		},
-		{
-			"xmlFile": "planets/xml/MoistCrater.xml",
-			"type": "preCrashRecorder",
-			"rename": "moistymoisterson",
-			"position": {
-				"x": -49.69526,
-				"y": -8.575027,
-				"z": -6.348553
-			},
-			"rotation": {
-				"x": 292.1777,
-				"y": 177.7678,
-				"z": 261.072
-			}
-		},
-		{
-			"xmlFile": "planets/xml/Crater.xml",
-			"type": "preCrashRecorder",
-			"rename": "crateycraterson",
-			"position": {
-				"x": -7.154451,
-				"y": -20.59194,
-				"z": -56.88366
-			},
-			"rotation": {
-				"x": 346.739,
-				"y": 98.13387,
-				"z": 246.3186
-			}
-		},
-		{
-			"xmlFile": "planets/xml/SeekerCrater.xml",
-			"type": "scroll",
-			"rename": "seekerseekerson",
-			"position": {
-				"x": 8.074366,
-				"y": 48.1226,
-				"z": -4.371849
-			},
-			"rotation": {
-				"x": 352.1748,
-				"y": 251.0814,
-				"z": 7.784051
-			},
-			"seed": 582
-		},
-		{
-			"xmlFile": "planets/xml/SunRising.xml",
-			"type": "scroll",
-			"rename": "seekerseekerson",
-			"position": {
-				"x": 44.90221,
-				"y": 54.29642,
-				"z": 6.785488
-			},
-			"rotation": {
-				"x": 311.1805,
-				"y": 151.9925,
-				"z": 97.68182
-			}
-		},
-		{
-			"type": "preCrashComputer",
-			"position": {
-				"x": 15.15451,
-				"y": 2.441422,
-				"z": -46.52854
-			},
-			"rotation": {
-				"x": 338.0069,
-				"y": 252.4254,
-				"z": 86.49049
-			},
-			"xmlFile": "planets/xml/brodcasting.xml"
-		}
-		],
-	"signals": [
-		{
-			"audio": "NomaiEscapePodDistressSignal_LP",
-			"detectionRadius": 8,
-			"identificationRadius": 5,
-			"name": "Refuse Broadcaster",
-			"frequency": "Hidden Broadcast",
-			"position": {
-				"x": 15.15451,
-				"y": 2.441422,
-				"z": -46.52854
-			}
-		}
-	],
-	"details": [
-		{
-			"rename": "Cedar",
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
-			"position": {
-				"x": 21.496,
-				"y": 35.38559,
-				"z": -26.19419
-			},
-			"rotation": {
-				"x": 318.7241,
-				"y": 295.8971,
-				"z": 16.85054
-			}
-		},
-		{
-			"rename": "Elm",
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
-			"position": {
-				"x": 21.98624,
-				"y": 29.75072,
-				"z": -39.0502
-			},
-			"rotation": {
-				"x": 309.1469,
-				"y": 335.688,
-				"z": 353.0228
-			}
-		},
-		{
-			"rename": "Cherry",
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
-			"position": {
-				"x": -9.291737,
-				"y": 39.73257,
-				"z": -38.44305
-			},
-			"rotation": {
-				"x": 321.9779,
-				"y": 1.721882,
-				"z": 8.118117
-			}
-		},
-		{
-			"rename": "Alder",
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
-			"position": {
-				"x": 0.05273628,
-				"y": 42.05878,
-				"z": 26.23389
-			},
-			"rotation": {
-				"x": 344.0832,
-				"y": 220.9384,
-				"z": 340.3059
-			}
-		},
-		{
-			"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-			"position": {
-				"x": 21.21438,
-				"y": 31.04641,
-				"z": -31.40749
-			},
-			"rotation": {
-				"x": 51.19276,
-				"y": 147.7908,
-				"z": 0.8341346
-			},
-			"scale": 0.75,
-			"keepLoaded": true
-		},
-		{
-			"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-			"position": {
-				"x": -7.576705,
-				"y": 38.38471,
-				"z": -29.48388
-			},
-			"rotation": {
-				"x": 36.91942,
-				"y": 215.3458,
-				"z": 12.7136
-			},
-			"scale": 0.75,
-			"keepLoaded": true
-		},
-		{
-			"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-			"position": {
-				"x": -3.968328,
-				"y": 44.12669,
-				"z": 20.91168
-			},
-			"rotation": {
-				"x": 23.85326,
-				"y": 7.836459,
-				"z": 8.122653
-			},
-			"scale": 0.75,
-			"keepLoaded": true
-		},
-		{
-			"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
-			"position": {
-				"x": 37.47196,
-				"y": 24.87508,
-				"z": 19.42831
-			},
-			"rotation": {
-				"x": 300.8538,
-				"y": 256.913,
-				"z": 346.9941
-			},
-			"scale": 0.75,
-			"keepLoaded": true
-		},
-		{
-			"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-			"path": "Assets/PowerFail/WildsRefuse.prefab",
-			"position": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"scale": 1,
-			"keepLoaded": true
-		},{
-			"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-			"path": "Assets/PowerFail/OwlkRuin1.prefab",
-			"position": {
-				"x": 7.735476,
-				"y": 65.72387,
-				"z": 10.41513
-			},
-			"rotation":
+		"dialogue": [
 			{
-				"x": 349.495,
-				"y": 220.6108,
-				"z": 359.6376
+				"pathToAnimController": "Sector/Cedar",
+				"xmlFile": "planets/xml/3-WR/Cedar.xml",
+				"radius": 3,
+				"isRelativeToParent": true
 			},
-			"alignRadial": true
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5",
-			"position": {
-				"x": -96.3702,
-				"y": 12.9999,
-				"z": -97.7662
+			{
+				"pathToAnimController": "Sector/Elm",
+				"xmlFile": "planets/xml/3-WR/Elm.xml",
+				"radius": 3,
+				"isRelativeToParent": true
 			},
-			"rotation": {
-				"x": 0.9795,
-				"y": 148.6532,
-				"z": 9.4596
+			{
+				"pathToAnimController": "Sector/Cherry",
+				"xmlFile": "planets/xml/3-WR/Cherry.xml",
+				"radius": 3,
+				"isRelativeToParent": true
 			},
-			"stretch": {
-				"x": 0.8745,
-				"y": 1.6836,
-				"z": 0.1255
-			},
-			"removeChildren": [
-				"Interactibles_Core_CannonPath_5",
-				"Interactibles_Core_CannonPath_5 (1)"
-			],
-			"keepLoaded": true
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 52.33432,
-				"y": -3.535484,
-				"z": -46.40173
-			},
-			"rotation": {
-				"x": 16.25435,
-				"y": 233.8477,
-				"z": 91.66562
+			{
+				"pathToAnimController": "Sector/Alder",
+				"xmlFile": "planets/xml/3-WR/Alder.xml",
+				"radius": 3,
+				"isRelativeToParent": true
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 55.03082,
-				"y": 9.866028,
-				"z": -44.80852
-			},
-			"rotation": {
-				"x": 66.49409,
-				"y": 236.6273,
-				"z": 93.58111
+		],
+		"warpReceivers": [
+			{
+				"frequency": "Platform-Refuge",
+				"position": {
+					"x": 44.2836,
+					"y": 2.558302,
+					"z": 50.20609
+				},
+				"rotation": {
+					"x": 10.6431,
+					"y": 311.9754,
+					"z": 273.4002
+				}
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 64.12279,
-				"y": 1.095791,
-				"z": -38.78954
+		],
+		"warpTransmitters": [
+			{
+				"frequency": "Refuge-Asteroid",
+				"position": {
+					"x": -59.49497,
+					"y": -25.41017,
+					"z": -6.298454
+				},
+				"rotation": {
+					"x": 22.03806,
+					"y": 3.856817,
+					"z": 114.9445
+				},
+				"alignmentWindow": 360,
+				"rename": "AsteroidWarp"
 			},
-			"rotation": {
-				"x": 329.4484,
-				"y": 231.8811,
-				"z": 91.99842
+
+			{
+				"frequency": "Refuge-Brother",
+				"position": {
+					"x": -59.49497,
+					"y": -25.41017,
+					"z": -6.298454
+				},
+				"rotation": {
+					"x": 22.03806,
+					"y": 3.856817,
+					"z": 114.9445
+				},
+				"alignmentWindow": 360,
+				"rename": "BrotherWarp"
+			},
+			{
+				"frequency": "Refuge-Maze",
+				"position": {
+					"x": -59.49497,
+					"y": -25.41017,
+					"z": -6.298454
+				},
+				"rotation": {
+					"x": 22.03806,
+					"y": 3.856817,
+					"z": 114.9445
+				},
+				"alignmentWindow": 360,
+				"rename": "MazeWarp"
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 14.90288,
-				"y": -2.429245,
-				"z": -64.05482
-			},
-			"rotation": {
-				"x": 68.67385,
-				"y": 14.29514,
-				"z": 198.7414
+		],
+		"geysers": [
+			{
+				"position": {
+					"x": 38.8765,
+					"y": -26.96621,
+					"z": 12.72086
+
+				},
+				"rotation": {
+					"x": 337.833,
+					"y": 356.6102,
+					"z": 233.9147
+				}
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 39.77072,
-				"y": -33.84158,
-				"z": -54.38944
+		],
+		"translatorText": [
+			{
+				"xmlFile": "planets/xml/exploringAFracturedWorld.xml",
+				"type": "preCrashRecorder",
+				"rename": "worldyworldyson",
+				"position": {
+					"x": 35.38217,
+					"y": -14.52959,
+					"z": 54.99135
+				},
+				"rotation": {
+					"x": 356.399,
+					"y": 121.6625,
+					"z": 102.69
+				}
 			},
-			"rotation": {
-				"x": 323.3263,
-				"y": 232.6075,
-				"z": 92.93295
+			{
+
+				"xmlFile": "planets/xml/whyAreYouHereInMyLife.xml",
+				"type": "preCrashRecorder",
+				"rename": "alienalienson",
+				"position": {
+					"x": 12.87241,
+					"y": 38.33867,
+					"z": -27.6538
+				},
+				"rotation": {
+					"x": -337.3312,
+					"y": -33.50604,
+					"z": -327.4879
+				}
+			},
+			{
+				"xmlFile": "planets/xml/TheFirstCode.xml",
+				"type": "scroll",
+				"rename": "othercodeothercodeyseon",
+				"position": {
+					"x": 12.61656,
+					"y": 1.551311,
+					"z": -47.31169
+				},
+				"rotation": {
+					"x": 330.962,
+					"y": 112.4736,
+					"z": 153.7585
+				}
+			},
+			{
+				"xmlFile": "planets/xml/LightbulbsIncentive.xml",
+				"type": "recorder",
+				"position": {
+					"x": 28.21868,
+					"y": -38.09122,
+					"z": 12.38139
+				},
+				"rotation": {
+					"x": 334.9727,
+					"y": 255.6075,
+					"z": 88.21321
+				}
+			},
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": 33.62564,
+					"y": 6.665954,
+					"z": 57.55398
+				},
+				"rotation": {
+					"x": 359.7155,
+					"y": 120.4878,
+					"z": 83.62283
+				}
+			},
+			{
+				"xmlFile": "planets/xml/MoistCrater.xml",
+				"type": "preCrashRecorder",
+				"rename": "moistymoisterson",
+				"position": {
+					"x": -49.69526,
+					"y": -8.575027,
+					"z": -6.348553
+				},
+				"rotation": {
+					"x": 292.1777,
+					"y": 177.7678,
+					"z": 261.072
+				}
+			},
+			{
+				"xmlFile": "planets/xml/Crater.xml",
+				"type": "preCrashRecorder",
+				"rename": "crateycraterson",
+				"position": {
+					"x": -7.154451,
+					"y": -20.59194,
+					"z": -56.88366
+				},
+				"rotation": {
+					"x": 346.739,
+					"y": 98.13387,
+					"z": 246.3186
+				}
+			},
+			{
+				"xmlFile": "planets/xml/SeekerCrater.xml",
+				"type": "scroll",
+				"rename": "seekerseekerson",
+				"position": {
+					"x": 8.074366,
+					"y": 48.1226,
+					"z": -4.371849
+				},
+				"rotation": {
+					"x": 352.1748,
+					"y": 251.0814,
+					"z": 7.784051
+				},
+				"seed": 582
+			},
+			{
+				"xmlFile": "planets/xml/SunRising.xml",
+				"type": "scroll",
+				"rename": "seekerseekerson",
+				"position": {
+					"x": 44.90221,
+					"y": 54.29642,
+					"z": 6.785488
+				},
+				"rotation": {
+					"x": 311.1805,
+					"y": 151.9925,
+					"z": 97.68182
+				}
+			},
+			{
+				"type": "preCrashComputer",
+				"position": {
+					"x": 15.15451,
+					"y": 2.441422,
+					"z": -46.52854
+				},
+				"rotation": {
+					"x": 338.0069,
+					"y": 252.4254,
+					"z": 86.49049
+				},
+				"xmlFile": "planets/xml/brodcasting.xml"
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 80.54708,
-				"y": 0.05419731,
-				"z": -23.38041
-			},
-			"rotation": {
-				"x": 29.24753,
-				"y": 230.3349,
-				"z": 92.72327
+		],
+		"signals": [
+			{
+				"audio": "NomaiEscapePodDistressSignal_LP",
+				"detectionRadius": 8,
+				"identificationRadius": 5,
+				"name": "Refuse Broadcaster",
+				"frequency": "Hidden Broadcast",
+				"position": {
+					"x": 15.15451,
+					"y": 2.441422,
+					"z": -46.52854
+				}
 			}
-		},
-		{
-			"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-			"position": {
-				"x": 77.4173,
-				"y": -18.82518,
-				"z": -25.00418
+		],
+		"details": [
+			{
+				"rename": "Cedar",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": 3.860728,
+					"y": 66.79413,
+					"z": 3.326672
+				},
+				"rotation": {
+					"x": 356.882,
+					"y": 271.3647,
+					"z": 356.7349
+				}
 			},
-			"rotation": {
-				"x": 331.3402,
-				"y": 228.428,
-				"z": 92.76538
+			{
+				"rename": "Elm",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": 11.49064,
+					"y": 64.65745,
+					"z": 20.72177
+				},
+				"rotation": {
+					"x": 343.2668,
+					"y": 211.9796,
+					"z": 359.5795
+				}
+			},
+			{
+				"rename": "Cherry",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": 14.13969,
+					"y": 62.65669,
+					"z": -25.08201
+				},
+				"rotation": {
+					"x": 3.555324,
+					"y": 244.1642,
+					"z": 28.95222
+				}
+			},
+			{
+				"rename": "Alder",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": 18.36433,
+					"y": 57.11436,
+					"z": -34.12851
+				},
+				"rotation": {
+					"x": 339.2232,
+					"y": 293.4213,
+					"z": 20.91941
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundle/planets",
+				"path": "Assets/PowerFail/WildsRefuse.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 1,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/OwlkRuin1.prefab",
+				"position": {
+					"x": 8.1839,
+					"y": 66.368,
+					"z": 16.0686
+				},
+				"rotation": {
+					"x": 358.7148,
+					"y": 124.7974,
+					"z": 16.6903
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundle/structure",
+				"path": "Assets/PowerFail/OwlkRuin2.prefab",
+				"position": {
+					"x": 14.3396,
+					"y": 58.4093,
+					"z": -33.0869
+				},
+				"rotation": {
+					"x": 4.8339,
+					"y": 241.8391,
+					"z": 28.7821
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5",
+				"position": {
+					"x": -96.3702,
+					"y": 12.9999,
+					"z": -97.7662
+				},
+				"rotation": {
+					"x": 0.9795,
+					"y": 148.6532,
+					"z": 9.4596
+				},
+				"stretch": {
+					"x": 0.8745,
+					"y": 1.6836,
+					"z": 0.1255
+				},
+				"removeChildren": [
+					"Interactibles_Core_CannonPath_5",
+					"Interactibles_Core_CannonPath_5 (1)"
+				],
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 52.33432,
+					"y": -3.535484,
+					"z": -46.40173
+				},
+				"rotation": {
+					"x": 16.25435,
+					"y": 233.8477,
+					"z": 91.66562
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 55.03082,
+					"y": 9.866028,
+					"z": -44.80852
+				},
+				"rotation": {
+					"x": 66.49409,
+					"y": 236.6273,
+					"z": 93.58111
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 64.12279,
+					"y": 1.095791,
+					"z": -38.78954
+				},
+				"rotation": {
+					"x": 329.4484,
+					"y": 231.8811,
+					"z": 91.99842
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 14.90288,
+					"y": -2.429245,
+					"z": -64.05482
+				},
+				"rotation": {
+					"x": 68.67385,
+					"y": 14.29514,
+					"z": 198.7414
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 39.77072,
+					"y": -33.84158,
+					"z": -54.38944
+				},
+				"rotation": {
+					"x": 323.3263,
+					"y": 232.6075,
+					"z": 92.93295
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 80.54708,
+					"y": 0.05419731,
+					"z": -23.38041
+				},
+				"rotation": {
+					"x": 29.24753,
+					"y": 230.3349,
+					"z": 92.72327
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+				"position": {
+					"x": 77.4173,
+					"y": -18.82518,
+					"z": -25.00418
+				},
+				"rotation": {
+					"x": 331.3402,
+					"y": 228.428,
+					"z": 92.76538
+				}
+			},
+			{
+				"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_15",
+				"position": {
+					"x": 503.0323,
+					"y": -20.3608,
+					"z": 5.3126
+				},
+				"rotation": {
+					"x": 276.0348,
+					"y": 94.3328,
+					"z": 0.132
+				},
+				"keepLoaded": true,
+				"scale": 1
+			},
+			{
+				"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_16",
+				"position": {
+					"x": 503.0323,
+					"y": -20.3608,
+					"z": 5.3126
+				},
+				"rotation": {
+					"x": 276.0348,
+					"y": 94.3328,
+					"z": 0.132
+				},
+				"keepLoaded": true,
+				"scale": 1
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 18.19854,
+					"y": -43.71928,
+					"z": 12.55277
+				},
+				"rotation": {
+					"x": 1.926399,
+					"y": 149.6256,
+					"z": 152.6346
+				},
+				"keepLoaded": true,
+				"scale": 2
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 18.79345,
+					"y": -45.22138,
+					"z": 1.297604
+				},
+				"rotation": {
+					"x": 19.04009,
+					"y": 300.3705,
+					"z": 192.6868
+				},
+				"keepLoaded": true,
+				"scale": 0.5
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 31.51388,
+					"y": -37.00609,
+					"z": 6.157471
+				},
+				"rotation": {
+					"x": 41.59045,
+					"y": 258.7222,
+					"z": 179.9479
+				},
+				"keepLoaded": true,
+				"scale": 1
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
+				"position": {
+					"x": 38.8765,
+					"y": -26.96621,
+					"z": 12.72086
+				},
+				"rotation": {
+					"x": 337.833,
+					"y": 356.6102,
+					"z": 233.9147
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -12.16213,
+					"y": 65.39594,
+					"z": -7.943301
+				},
+				"rotation": {
+					"x": 1.177397,
+					"y": 151.9849,
+					"z": 348.1441
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -6.19408,
+					"y": 58.12287,
+					"z": -32.73504
+				},
+				"rotation": {
+					"x": 343.1425,
+					"y": 66.72143,
+					"z": 336.1856
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 22.766,
+					"y": 59.5416,
+					"z": -16.4978
+				},
+				"rotation": {
+					"x": 334.9823,
+					"y": 304.0166,
+					"z": 3.9356
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 20.7513,
+					"y": 63.0453,
+					"z": 3.6091
+				},
+				"rotation": {
+					"x": 348.3157,
+					"y": 226.9536,
+					"z": 9.1827
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -11.75387,
+					"y": 62.21569,
+					"z": 21.86069
+				},
+				"rotation": {
+					"x": 348.7417,
+					"y": 211.3681,
+					"z": 341.5836
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -25.7018,
+					"y": 59.25369,
+					"z": 17.76258
+				},
+				"rotation": {
+					"x": 333.8738,
+					"y": 143.1693,
+					"z": 351.3402
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+				"position": {
+					"x": 34.80525,
+					"y": -11.48303,
+					"z": 56.0742
+				},
+				"rotation": {
+					"x": 327.9384,
+					"y": 116.3959,
+					"z": 101.2623
+				},
+				"keepLoaded": true
 			}
-		},
-		{
-			"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_15",
-			"position": {
-				"x": 503.0323,
-				"y": -20.3608,
-				"z": 5.3126
-			},
-			"rotation": {
-				"x": 276.0348,
-				"y": 94.3328,
-				"z": 0.132
-			},
-			"keepLoaded": true,
-			"scale": 1
-		},
-		{
-			"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_16",
-			"position": {
-				"x": 503.0323,
-				"y": -20.3608,
-				"z": 5.3126
-			},
-			"rotation": {
-				"x": 276.0348,
-				"y": 94.3328,
-				"z": 0.132
-			},
-			"keepLoaded": true,
-			"scale": 1
-		},
-							{
-			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
-"position": {"x": 18.19854, "y": -43.71928, "z": 12.55277},
-"rotation": {"x": 1.926399, "y": 149.6256, "z": 152.6346},
-"keepLoaded": true,
-"scale": 2
-		},
-									{
-			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
-"position": {"x": 18.79345, "y": -45.22138, "z": 1.297604},
-"rotation": {"x": 19.04009, "y": 300.3705, "z": 192.6868},
-"keepLoaded": true,
-"scale": 0.5
-		},
-											{
-			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
-"position": {"x": 31.51388, "y": -37.00609, "z": 6.157471},
-"rotation": {"x": 41.59045, "y": 258.7222, "z": 179.9479},
-"keepLoaded": true,
-"scale": 1
-			},
-														{
-			"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
-				"position": {"x": 38.8765, "y": -26.96621, "z": 12.72086},
-"rotation": {"x": 337.833, "y": 356.6102, "z": 233.9147},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -12.16213, "y": 65.39594, "z": -7.943301},
-"rotation": {"x": 1.177397, "y": 151.9849, "z": 348.1441},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -6.19408, "y": 58.12287, "z": -32.73504},
-"rotation": {"x": 343.1425, "y": 66.72143, "z": 336.1856},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": 24.13686, "y": 58.95614, "z": -20.72149},
-"rotation": {"x": 332.0857, "y": 304.0166, "z": 3.935602},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": 24.45131, "y": 62.23615, "z": -4.027244},
-"rotation": {"x": 345.9958, "y": 229.6139, "z": 15.86085},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -11.75387, "y": 62.21569, "z": 21.86069},
-"rotation": {"x": 348.7417, "y": 211.3681, "z": 341.5836},
-"keepLoaded": true
-			},
-																	{
-			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -25.7018, "y": 59.25369, "z": 17.76258},
-"rotation": {"x": 333.8738, "y": 143.1693, "z": 351.3402},
-"keepLoaded": true
-			},
-									    {
-      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
-"position": {"x": 5.815858, "y": -4.920841, "z": 80.05391},
-"rotation": {"x": 320.4748, "y": 277.8981, "z": 267.2822},
-"keepLoaded": true
-    }
 		]
 	},
 	"Atmosphere": {
@@ -710,12 +766,12 @@
 			"a": 255
 		}
 	},
-		"Volumes": {
-			"oxygenVolumes": [
-				{
-					"radius": 86
-				}
-			],
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"radius": 86
+			}
+		],
 		"audioVolumes": [
 			{
 				"loop": true,
@@ -726,7 +782,7 @@
 			}
 		]
 	},
-		"HeightMap": {
+	"HeightMap": {
 		"heightMap": "planets/assets/FR_h.png",
 		"textureMap": "planets/assets/FR_c.png",
 		"tileBlendMap": "planets/assets/FR_b.png",
@@ -740,12 +796,56 @@
 	"Water": {
 		"size": 66
 	},
-	  		"ShipLog" : {
+	"ShipLog": {
 		"spriteFolder": "planets/shiplog",
 		"xmlFile": "planets/shiplog/Refuse.xml",
-		"mapMode" : {
+		"mapMode": {
 			"revealedSprite": "planets/assets/FR.png",
-			"scale": 1
+			"scale": 1,
+			"invisibleWhenHidden": false
 		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_PowerFail_Refuse_Campfire",
+				"position": {
+					"x": 38.05322,
+					"y": -0.3727541,
+					"z": 55.13025
+				},
+				"rotation": {
+					"x": 359.9908,
+					"y": 124.0957,
+					"z": 90
+				}
+			},
+			{
+				"rename": "_PowerFail_Refuse_WarpZone",
+				"position": {
+					"x": -59.44345,
+					"y": -19.56975,
+					"z": -17.56424
+				},
+				"rotation": {
+					"x": 332.9054,
+					"y": 172.8342,
+					"z": 250.2335
+				}
+			},
+			{
+				"rename": "_PowerFail_Refuse_Stranger",
+				"position": {
+					"x": -21.18954,
+					"y": 63.51501,
+					"z": 1.991206
+				},
+				"rotation": {
+					"x": 16.15994,
+					"y": 242.5238,
+					"z": 349.9524
+				}
+			}
+		]
 	}
 }
