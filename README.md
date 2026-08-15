@@ -4,7 +4,8 @@
 
 3
 
-<img width="1885" height="1018" alt="image" src="https://github.com/user-attachments/assets/5d95cd45-4ea6-42bc-8668-af6c860cc225" />
+<img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e6b9578-2785-44be-b3bc-2b78eab91394" />
+
 
 POWERFAIL
 
