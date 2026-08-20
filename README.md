@@ -4,16 +4,17 @@
 
 3
 
-<img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e6b9578-2785-44be-b3bc-2b78eab91394" />
+<img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/dc696f7e-7301-410e-9fa8-8c9a40bd6fcb" />
+
 
 
 POWERFAIL
 
-Venture into a *new* adventure of Outer Wilds' Mod Jam 5.
+Venture into a (mildly mid) adventure of Outer Wilds' Mod Jam 5.
 
-An *EXTREMELY* big update is in the works, so be prepared.
+The mod is about to be completely replaced with a full-on remake, which will soon be released as a fully seperate mod. Remind Xen to update B-Side with the new one, because I don't want the populous to think that this is the ultimate version.
 
-Have some quotes from the developers!
+In the mean time, have some quotes from the developers!
 
 "The mod is mid" - T3rtu
 
